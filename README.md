@@ -206,24 +206,51 @@ python download_models.py --comfyui-path "C:/Users/joyco/OneDrive/Desktop/ComfyU
 
 ## 설치 및 실행
 
+### comfy-qwen 에이전트 실행
+
 ```bash
-# 1. 의존성 설치
+# 1. comfy-qwen 디렉토리로 이동
+cd C:/Users/joyco/OneDrive/Desktop/dana/comfy-qwen
+
+# 2. 가상환경 활성화
+.\.venv\Scripts\activate
+
+# 3. 의존성 설치
 pip install -r requirements.txt
 
-# 2. 모델 다운로드 (위의 "모델 다운로드" 섹션 참조)
-python download_models.py --comfyui-path "C:\path\to\ComfyUI"
+# 4. 모델 다운로드 (위의 "모델 다운로드" 섹션 참조)
+python download_models.py --comfyui-path "C:/Users/joyco/OneDrive/Desktop/ComfyUI"
+```
 
-# 3. Ollama에서 Qwen 모델 준비
-ollama pull qwen3:8b
-ollama serve
+### ComfyUI 서버 시작 (별도 터미널)
 
-# 4. ComfyUI API 서버 실행 (별도 터미널)
-cd /path/to/ComfyUI
+```bash
+# 1. ComfyUI 디렉토리로 이동
+cd C:/Users/joyco/OneDrive/Desktop/ComfyUI
+
+# 2. ComfyUI 가상환경 활성화
+.\venv\Scripts\activate
+
+# 3. ComfyUI 의존성 설치 (처음 1회만)
+pip install -r requirements.txt
+
+# 4. ComfyUI 서버 실행
 python main.py --listen
+```
 
-# 5. 에이전트 실행
-cd comfy-qwen
+### Ollama 서버 시작 (별도 터미널)
 
+```bash
+# Ollama 모델 풀 (처음 1회만)
+ollama pull qwen3:8b
+
+# Ollama 서버 시작
+ollama serve
+```
+
+### 에이전트 실행 (comfy-qwen 터미널에서)
+
+```bash
 # 대화형 모드
 python main.py
 
@@ -236,6 +263,12 @@ python main.py --prompt "depth-aware portrait" --lora "flux1-depth-dev-lora.safe
 # 사전 체크 건너뛰기
 python main.py --skip-check --prompt "A serene Japanese garden"
 ```
+
+### 전체 시작 순서 요약
+
+1. **터미널 1**: `ollama serve` (Ollama 서버 - 이미 실행 중)
+2. **터미널 2**: ComfyUI 디렉토리에서 `.\venv\Scripts\activate` 후 `python main.py --listen` (ComfyUI 서버)
+3. **터미널 3**: comfy-qwen 디렉토리에서 `.\.venv\Scripts\activate` 후 `python main.py` (에이전트)
 
 ---
 
