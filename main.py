@@ -8,6 +8,9 @@ Usage:
     # Single request
     python main.py --prompt "A cyberpunk city at night with neon lights"
 
+    # Episode mode — generate all cut images from a script file
+    python main.py --episode script.txt
+
     # With explicit LoRA and workflow
     python main.py --prompt "A portrait in oil painting style" \
                    --workflow flux_depth_lora_example.json \
@@ -128,6 +131,11 @@ def main():
         help="이미지 생성 프롬프트 (지정하지 않으면 대화형 모드)",
     )
     parser.add_argument(
+        "--episode", "-e",
+        type=str,
+        help="에피소드 대본 파일 경로 (컷 분할 → 이미지 일괄 생성)",
+    )
+    parser.add_argument(
         "--workflow", "-w",
         type=str,
         default=DEFAULT_WORKFLOW_PATH,
@@ -151,7 +159,16 @@ def main():
             print("\n사전 요건을 충족하지 못했습니다. --skip-check로 건너뛸 수 있습니다.")
             sys.exit(1)
 
-    if args.prompt:
+    if args.episode:
+        from episode_pipeline import run_episode
+        script_path = Path(args.episode)
+        if not script_path.exists():
+            print(f"대본 파일을 찾을 수 없습니다: {script_path}")
+            sys.exit(1)
+        script_text = script_path.read_text(encoding="utf-8")
+        print(f"[에피소드 모드] 대본 로드: {script_path} ({len(script_text)} 글자)")
+        run_episode(script_text)
+    elif args.prompt:
         run_single(args.prompt, args.workflow, args.lora)
     else:
         run_interactive()
