@@ -39,8 +39,14 @@ class ComfyUIClient:
         req = urllib.request.Request(
             url, data=payload, headers={"Content-Type": "application/json"}
         )
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return json.loads(resp.read().decode())
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode(errors="replace")
+            raise RuntimeError(
+                f"HTTP {e.code} from {path}: {body}"
+            ) from e
 
     def _get_bytes(self, path: str) -> bytes:
         url = f"{self.base_url}{path}"

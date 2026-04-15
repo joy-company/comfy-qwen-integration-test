@@ -43,12 +43,13 @@ def _get_widget_names_for_type(class_type: str) -> list[str]:
     Return the expected widget parameter names for known node types.
     This maps class_type to the ordered list of widget value names.
     """
+    # Use None for frontend-only widgets that should not be sent to the API
     widget_map = {
-        "KSampler": ["seed", "control_after_generate", "steps", "cfg", "sampler_name", "scheduler", "denoise"],
+        "KSampler": ["seed", None, "steps", "cfg", "sampler_name", "scheduler", "denoise"],
         "KSamplerSelect": ["sampler_name"],
         "CLIPTextEncode": ["text"],
         "SaveImage": ["filename_prefix"],
-        "LoadImage": ["image", "upload"],
+        "LoadImage": ["image", None],
         "UNETLoader": ["unet_name", "weight_dtype"],
         "LoraLoaderModelOnly": ["lora_name", "strength_model"],
         "VAELoader": ["vae_name"],
@@ -63,7 +64,8 @@ def _get_widget_names_for_type(class_type: str) -> list[str]:
         "VAEEncode": [],
         "ImageResize+": ["width", "height", "interpolation", "method", "condition", "multiple_of"],
         "MarkdownNote": ["text"],
-        "InstructPixToPixConditioning": ["positive", "negative", "vae", "pixels"],
+        "InstructPixToPixConditioning": [],
+        "CheckpointLoaderSimple": ["ckpt_name"],
     }
     return widget_map.get(class_type, [])
 
@@ -106,7 +108,7 @@ def convert_to_api_format(workflow: dict) -> dict:
         widget_names = _get_widget_names_for_type(class_type)
 
         for i, name in enumerate(widget_names):
-            if i < len(widget_values):
+            if i < len(widget_values) and name is not None:
                 inputs[name] = widget_values[i]
 
         # For unknown node types, store widgets by index as fallback
@@ -147,6 +149,26 @@ def extract_workflow_info(workflow: dict) -> dict:
         "all_node_ids": {},
     }
 
+    # Build a map: origin_node_id -> [(target_node_id, target_slot)]
+    # Used to determine which CLIPTextEncode is positive vs negative
+    link_targets = {}
+    for link in workflow.get("links", []):
+        if isinstance(link, list) and len(link) >= 5:
+            origin_node = link[1]
+            target_node = link[3]
+            target_slot = link[4]
+            link_targets.setdefault(origin_node, []).append((target_node, target_slot))
+
+    # Find KSampler node id for link-based prompt detection
+    ksampler_id = None
+    for node in nodes:
+        if node.get("type") == "KSampler":
+            ksampler_id = node["id"]
+            break
+
+    # Collect unresolved CLIPTextEncode nodes for link-based fallback
+    clip_text_nodes = []
+
     for node in nodes:
         class_type = node.get("type", "")
         node_id = str(node["id"])
@@ -161,7 +183,7 @@ def extract_workflow_info(workflow: dict) -> dict:
                 "lora_name": widgets[0] if len(widgets) > 0 else None,
                 "strength": widgets[1] if len(widgets) > 1 else 1.0,
             }
-        elif class_type == "UNETLoader" and widgets:
+        elif class_type in ("UNETLoader", "CheckpointLoaderSimple") and widgets:
             info["base_model"] = {
                 "node_id": node_id,
                 "model_name": widgets[0] if len(widgets) > 0 else None,
@@ -177,6 +199,8 @@ def extract_workflow_info(workflow: dict) -> dict:
                     "node_id": node_id,
                     "text": widgets[0] if widgets else "",
                 }
+            else:
+                clip_text_nodes.append((node_id, widgets))
         elif class_type == "KSampler" and widgets:
             info["sampler"] = {
                 "node_id": node_id,
@@ -192,5 +216,31 @@ def extract_workflow_info(workflow: dict) -> dict:
                 "node_id": node_id,
                 "image": widgets[0] if widgets else None,
             }
+
+    # Resolve untitled CLIPTextEncode nodes by tracing links to KSampler
+    # KSampler inputs: slot 1 = positive, slot 2 = negative
+    for node_id, widgets in clip_text_nodes:
+        resolved = False
+        if ksampler_id is not None:
+            for target_node, target_slot in link_targets.get(int(node_id), []):
+                if target_node == ksampler_id:
+                    entry = {
+                        "node_id": node_id,
+                        "text": widgets[0] if widgets else "",
+                    }
+                    if target_slot == 1 and info["positive_prompt"] is None:
+                        info["positive_prompt"] = entry
+                        resolved = True
+                    elif target_slot == 2 and info["negative_prompt"] is None:
+                        info["negative_prompt"] = entry
+                        resolved = True
+                    break
+        # Fallback: assign to first empty slot
+        if not resolved:
+            entry = {"node_id": node_id, "text": widgets[0] if widgets else ""}
+            if info["positive_prompt"] is None:
+                info["positive_prompt"] = entry
+            elif info["negative_prompt"] is None:
+                info["negative_prompt"] = entry
 
     return info

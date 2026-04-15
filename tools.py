@@ -331,19 +331,17 @@ EXECUTE_WORKFLOW_SCHEMA = {
         ),
         "parameters": {
             "type": "object",
-            "properties": {
-                "save_to": {
-                    "type": "string",
-                    "description": "생성된 이미지를 저장할 로컬 경로 (선택사항)",
-                },
-            },
+            "properties": {},
             "required": [],
         },
     },
 }
 
 
-def execute_workflow(save_to: str = None) -> str:
+OUTPUT_DIR = Path(__file__).parent / "output"
+
+
+def execute_workflow(**kwargs) -> str:
     state = get_state()
     if not state.ensure_loaded():
         return json.dumps({"error": "워크플로우가 로드되지 않았습니다."}, ensure_ascii=False)
@@ -353,6 +351,18 @@ def execute_workflow(save_to: str = None) -> str:
         return json.dumps({
             "error": "ComfyUI 서버에 연결할 수 없습니다. 서버가 실행 중인지 확인하세요.",
         }, ensure_ascii=False)
+
+    # Print the API workflow being submitted
+    print("\n" + "=" * 60)
+    print("[Workflow] ComfyUI에 제출할 API 워크플로우:")
+    print("=" * 60)
+    for nid, node in sorted(state.api_workflow.items(), key=lambda x: int(x[0])):
+        inputs_str = ", ".join(
+            f"{k}={json.dumps(v, ensure_ascii=False) if isinstance(v, str) else v}"
+            for k, v in node["inputs"].items()
+        )
+        print(f"  [{nid}] {node['class_type']}: {inputs_str}")
+    print("=" * 60 + "\n")
 
     # Submit workflow
     try:
@@ -376,20 +386,19 @@ def execute_workflow(save_to: str = None) -> str:
     images = state.comfyui.get_output_images(history)
     state.last_images = images
 
-    # Optionally save images locally
+    # Always save images to local output folder
+    save_dir = OUTPUT_DIR
+    save_dir.mkdir(parents=True, exist_ok=True)
     saved_paths = []
-    if save_to and images:
-        save_dir = Path(save_to)
-        save_dir.mkdir(parents=True, exist_ok=True)
-        for img_info in images:
-            img_data = state.comfyui.get_image(
-                img_info["filename"],
-                img_info.get("subfolder", ""),
-                img_info.get("type", "output"),
-            )
-            out_path = save_dir / img_info["filename"]
-            out_path.write_bytes(img_data)
-            saved_paths.append(str(out_path))
+    for img_info in images:
+        img_data = state.comfyui.get_image(
+            img_info["filename"],
+            img_info.get("subfolder", ""),
+            img_info.get("type", "output"),
+        )
+        out_path = save_dir / img_info["filename"]
+        out_path.write_bytes(img_data)
+        saved_paths.append(str(out_path))
 
     return json.dumps({
         "status": "success",
@@ -403,7 +412,7 @@ def execute_workflow(save_to: str = None) -> str:
             }
             for img in images
         ],
-        "saved_to": saved_paths if saved_paths else None,
+        "saved_to": saved_paths,
     }, ensure_ascii=False, indent=2)
 
 
