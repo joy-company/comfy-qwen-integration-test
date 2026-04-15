@@ -1,0 +1,468 @@
+[
+  {
+    "cut_number": 1,
+    "scene_id": "S#1",
+    "type": "ECU",
+    "duration_sec": 1.5,
+    "action": "Ara's face, drenched with rain and wine, hair plastered to her skin. Her eyes are wide with a mix of desperation and defiance.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "forward, unfocused"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Desperation 80, Defiance 70",
+    "depth_stacking": "Foreground: Ara's wet face; Midground: blurred city lights; Background: heavy rain streaks."
+  },
+  {
+    "cut_number": 2,
+    "scene_id": "S#1",
+    "type": "Action",
+    "duration_sec": 1.5,
+    "action": "Low angle shot of a black luxury sedan's tires screeching to a halt, just inches from Ara's knees, splashing water. (SFX: 끼이이익-!! 타이어 비명 소리)",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: wet road, car tires; Midground: Ara's legs (blurred); Background: hotel entrance (blurred)."
+  },
+  {
+    "cut_number": 3,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 1.0,
+    "action": "Do-jin's eyes, bloodshot and enraged, glaring intensely through the pouring rain.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Rage 95, Frustration 85",
+    "depth_stacking": "Foreground: rain streaks; Midground: Do-jin's face; Background: blurred car."
+  },
+  {
+    "cut_number": 4,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2.0,
+    "action": "Do-jin violently grabs Ara's wrist, twisting her around and shoving her against the car body.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": "Do-jin's right hand gripping Ara's left wrist.",
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: Do-jin's arm, Ara's arm; Midground: their bodies against the car; Background: pouring rain."
+  },
+  {
+    "cut_number": 5,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 1.0,
+    "action": "Ara's head hitting the car window with a dull thud, her wet hair splaying. A subtle red mark begins to form on the back of her head.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "null"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Pain 70, Shock 50",
+    "depth_stacking": "Foreground: Ara's head; Midground: car window; Background: blurred rain."
+  },
+  {
+    "cut_number": 6,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "Do-jin, leaning in close to Ara, his face grim and furious, delivering his lines in a low, cold voice. Rain streams down his face.",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "강아라. 우리 태성 그룹으로 들어왔어야 할 합병 담보금 3,000억. 네가 중간에서 훔치고 무사할 줄 알았어? 당장 내놔! 그 돈 없으면 내 후계자 승계도 올스톱이야!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly down",
+      "target": "Ara's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Cold Fury 90, Determination 80",
+    "depth_stacking": "Foreground: Do-jin's face; Midground: Ara's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 7,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "Ara, pinned against the car, a manic, defiant laugh escaping her lips, rain mixing with her tears.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "무사할 생각 없어. 어차피 나, 췌장암 말기라 한 달 뒤면 죽거든."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slightly up",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Defiance 90, Desperation 70, Manic Laughter 80",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 8,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 1.0,
+    "action": "Do-jin's eyes, wide with sudden shock and bewilderment, his rage momentarily replaced by confusion.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Shock 90, Bewilderment 80",
+    "depth_stacking": "Foreground: rain streaks; Midground: Do-jin's eyes; Background: blurred rain."
+  },
+  {
+    "cut_number": 9,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 1.5,
+    "action": "Ara's wet hand roughly yanking Do-jin's soaked tie, pulling his face closer.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": "Ara's right hand gripping Do-jin's tie.",
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: Ara's hand, Do-jin's tie; Midground: their chests; Background: blurred rain."
+  },
+  {
+    "cut_number": 10,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 3.0,
+    "action": "Ara's face, inches from Do-jin's, her eyes burning with a chilling resolve, their breaths mingling in the rain.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "그 돈, 내 하드월렛에 안전하게 모셔놨어. 비번은 내 머릿속에만 있고, 내가 원하면 지금 당장이라도 네 계좌로 쏴줄 순 있지."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Resolve 90, Cold Amusement 70",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred face; Background: pouring rain."
+  },
+  {
+    "cut_number": 11,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 2.5,
+    "action": "Do-jin's face, jaw clenched, eyes narrowed in furious determination, as he clenches Ara's wrist tighter.",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "그래? 그럼 당장 비번 풀고 이체해! 지하실에 묶어놓고 손가락만 갖다 대게 해줄까?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara's eyes"
+    },
+    "hand_object_binding": "Do-jin's right hand tightly gripping Ara's left wrist.",
+    "facial_gradient": "Fury 90, Determination 85",
+    "depth_stacking": "Foreground: Do-jin's face; Midground: Ara's blurred face; Background: pouring rain."
+  },
+  {
+    "cut_number": 12,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "Ara, a cold, knowing smile playing on her lips despite the pain, revealing her trump card.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "근데 어쩌나? 내 스마트워치 심박수랑 하드월렛을 연동시켜서 '데드맨 스위치'를 켜뒀거든."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slightly up",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": "Ara's left wrist with a sleek, dark-colored smartwatch visible.",
+    "facial_gradient": "Cold Amusement 80, Defiance 75",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 13,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 1.0,
+    "action": "Do-jin's face, a flicker of confusion and alarm crossing his features as he processes the 'deadman switch.'",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "뭐? 데드맨 스위치?"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Alarm 80, Confusion 70",
+    "depth_stacking": "Foreground: rain streaks; Midground: Do-jin's face; Background: blurred rain."
+  },
+  {
+    "cut_number": 14,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 4.0,
+    "action": "Ara, her expression chillingly calm as she explains the deadly mechanism, rain dripping from her hair.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "응. 나한테서 억지로 비번 뜯어내겠다고 고문하거나 스트레스 줘서 내 심박수가 150을 넘기면? 혹은 내가 홧병으로 일찍 죽어서 심장이 멎으면? 그 즉시 3,000억은 허공으로 영구 삭제돼."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Chilling Composure 90, Manipulation 85",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 15,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 1.5,
+    "action": "Do-jin's face, now utterly pale and horrified, his eyes wide with disbelief and dawning terror.",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "너... 미쳤어?! 내 합병 자금에 시한폭탄을 달아놔?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Horror 95, Disbelief 90",
+    "depth_stacking": "Foreground: rain streaks; Midground: Do-jin's face; Background: blurred rain."
+  },
+  {
+    "cut_number": 16,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 1.0,
+    "action": "Do-jin's hand instantly releasing Ara's wrist, almost recoiling in fear.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": "Do-jin's hand releasing Ara's wrist.",
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: hands; Midground: their bodies; Background: wet car."
+  },
+  {
+    "cut_number": 17,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 4.0,
+    "action": "Ara, a triumphant, yet weary, expression as she lays out her terms, her voice steady.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "한 달. 내가 죽기 전까지 그 한 달 동안 날 털끝 하나 안 다치게, 스트레스 1도 없이 상전처럼 모셔. 내가 편안하게 돈 펑펑 쓰면서 남은 삶 즐기다가, 눈 감기 직전에 내 손으로 직접 네 계좌로 남은 돈 예쁘게 이체해 주고 갈 테니까."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slightly up",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Triumph 80, Weariness 60, Manipulation 90",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 18,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "Do-jin, his face a mask of incredulity and simmering rage, struggling to comprehend Ara's audacity.",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "너 지금 나랑 인질극 하자는 거야? 내가 네 수발이라도 들라고?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly down",
+      "target": "Ara's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Incredulity 90, Simmering Rage 80",
+    "depth_stacking": "Foreground: Do-jin's face; Midground: Ara's blurred shoulder; Background: wet car."
+  },
+  {
+    "cut_number": 19,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 4.0,
+    "action": "Ara, her gaze unwavering, delivering her final, chilling ultimatum, a faint, cold smile.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "아니, 3,000억짜리 생명 보험. 억지로 뺏으려 해봤자 심박수 오르면 돈은 타버려. 선택해. 날 건드려서 돈을 태울지, 완벽한 개가 돼서 살려내고 상속받을지."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "Do-jin's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Cold Resolve 95, Manipulation 90",
+    "depth_stacking": "Foreground: Ara's face; Midground: Do-jin's blurred face; Background: pouring rain."
+  },
+  {
+    "cut_number": 20,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 1.5,
+    "action": "Wide shot of security guards in black suits rushing out of the hotel entrance, looking for Ara.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: hotel entrance; Midground: guards running; Background: blurred street."
+  },
+  {
+    "cut_number": 21,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 3.0,
+    "action": "Do-jin, his face pressed close to Ara's ear, shielding her from the approaching guards, a predatory glint in his eyes as he whispers.",
+    "dialogue": {
+      "speaker": "도진",
+      "line": "좋아. 3,000억 상속받을 때까지, 내 허락 없인 1초도 먼저 죽지 마."
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly down",
+      "target": "Ara's ear/side of face"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Calculating Resolve 90, Predatory 80",
+    "depth_stacking": "Foreground: Do-jin's face; Midground: Ara's blurred face; Background: blurred guards."
+  },
+  {
+    "cut_number": 22,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 1.5,
+    "action": "Do-jin roughly shoves Ara into the back seat of the luxury car, her red gown a splash of color against the dark interior.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: Do-jin's arm, Ara's body; Midground: car interior; Background: pouring rain."
+  },
+  {
+    "cut_number": 23,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 1.5,
+    "action": "The luxury car's tires spinning, accelerating rapidly through the heavy rain, leaving the guards behind.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Foreground: wet road, car tires; Midground: speeding car; Background: blurred hotel."
+  },
+  {
+    "cut_number": 24,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 2.0,
+    "action": "Ara in the back seat, drenched, hair plastered, eyes burning with a mix of defiance and a hint of fear, her left hand subtly resting on her smartwatch.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "none",
+      "target": "Do-jin"
+    },
+    "hand_object_binding": "Ara's left hand subtly resting on her smartwatch.",
+    "facial_gradient": "Defiance 85, Vulnerability 40",
+    "depth_stacking": "Foreground: Ara's face; Midground: blurred car interior; Background: rain on window."
+  },
+  {
+    "cut_number": 25,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 2.0,
+    "action": "Do-jin in the driver's seat, soaked, jaw clenched, eyes fixed on the road, but a dark resolve in his gaze, occasionally glancing towards Ara.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara (via rearview mirror or side glance)"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Cold Resolve 90, Frustration 70",
+    "depth_stacking": "Foreground: Do-jin's face; Midground: blurred car interior; Background: rain on window."
+  },
+  {
+    "cut_number": 26,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.0,
+    "action": "A two-shot, tight on Ara and Do-jin's faces, their eyes locked in a tense, silent battle, the rain-streaked window behind them.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "none",
+      "target": "Ara's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "Ara: Defiance 80, Calculation 70; Do-jin: Calculation 85, Controlled Rage 75",
+    "depth_stacking": "Foreground: Ara's and Do-jin's faces; Midground: blurred car interior; Background: rain on window."
+  }
+]

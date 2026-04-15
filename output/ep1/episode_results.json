@@ -1,0 +1,442 @@
+[
+  {
+    "cut_number": 1,
+    "scene_id": "S#1",
+    "prompt": "A close-up (CU) on 아라's delicate right hand, slightly trembling, holding a '결혼 10주년' (10th Wedding Anniversary) card. Her gaze is directed intently at the card in her hand. Her hand is adorned by the sleeve of a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric. The lighting is bright, neutral daylight from unseen windows or overhead corridor lighting, casting moderate, even shadows. In the foreground, 아라's hand and the card are in sharp focus, while the midground reveals a blurred luxurious officetel door. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "4bd92f97-f163-4e9b-863b-aa0092ad4b2e",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_001_ComfyUI_00052_.png"
+    ]
+  },
+  {
+    "cut_number": 2,
+    "scene_id": "S#1",
+    "prompt": "아라, with delicate bone structure, initially slightly downturned eyes, and thin lips, wears a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric, with a modest boat neckline and long sleeves. Bright, neutral light from unseen windows or overhead corridor lighting illuminates her, creating moderate, even shadows. Close-up (CU) on her face and upper shoulders. Her expression conveys a mix of surprise (30%) and sadness (20%), as her head is tilted slightly towards a door, her gaze fixed intently on a door crack. The blurred wall of a high-end officetel corridor is visible in the midground behind her. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "518cf96c-06bf-435f-805c-76cd5f932a7c",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_002_ComfyUI_00018_.png"
+    ]
+  },
+  {
+    "cut_number": 3,
+    "scene_id": "S#1",
+    "prompt": "A slender woman, average height, with a delicate bone structure, initially slightly downturned eyes, and thin lips, wearing a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric with a modest boat neckline and long sleeves, stands with her back mostly to the camera, her head straight, gazing forward with an expression of profound shock and betrayal. In the midground, a conventionally attractive man with an athletic build, wearing a luxurious dark silk robe over designer loungewear (a dark v-neck t-shirt and matching silk pants), holds a champagne glass in his left hand, displaying an expression of pleasure. Entangled with him is a slender, alluring woman with suggestive eye shape and full lips, wearing a revealing, short red silk slip dress with delicate lace trim and high-heeled black patent leather pumps, her expression a seductive smirk. The background shows the luxurious interior of an officetel. Bright, neutral light from unseen windows or overhead corridor lighting illuminates the scene with moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "2cc420cd-963a-4bb2-a7ac-6992966c65f1",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_003_ComfyUI_00019_.png"
+    ]
+  },
+  {
+    "cut_number": 4,
+    "scene_id": "S#1",
+    "prompt": "A woman with suggestive eye shape and full lips, no distinguishing marks, slender, alluring build, displaying a mocking, scornful, and superior smirk. She is wearing a revealing, short red silk slip dress with delicate lace trim. Her face is buried into a man's chest, her eyes looking scornfully to the side towards Ara. Bright, neutral daylight from unseen windows or overhead corridor lighting illuminates the scene, casting moderate, even shadows. A close-up (CU) shot, clearly framing her entire face and extending to her upper shoulders. Her face is in the foreground, with a man's shoulder (wearing a luxurious dark silk robe) visible in the midground behind her, and a luxurious officetel interior blurred in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "d26a8da3-b0ad-4b15-8f50-12386166e458",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_004_ComfyUI_00053_.png"
+    ]
+  },
+  {
+    "cut_number": 5,
+    "scene_id": "S#1",
+    "prompt": "A conventionally attractive man, 민혁, with a slightly furrowed brow, displaying an expression of 60% annoyance and 40% irritation. He is wearing a luxurious dark silk robe over a dark v-neck t-shirt and matching silk pants. His head is turned slightly, and his gaze is directed towards 주리. The lighting is bright, neutral daylight from unseen windows or overhead corridor lighting, casting moderate, even shadows. The camera is a close-up (CU) on his face and upper shoulders. In the midground, 주리's shoulder is partially visible, and the background shows the luxurious interior of the officetel. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "09596cdc-f0f7-4259-bcbe-f331a4cce7bd",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_005_ComfyUI_00020_.png"
+    ]
+  },
+  {
+    "cut_number": 6,
+    "scene_id": "S#1",
+    "prompt": "A tight close-up shot of a conventionally attractive man, with an athletic to average build and confident, often arrogant posture, displaying an annoyed and condescending expression on his face and upper shoulders, his gaze directed towards 아라, who is just out of frame. He wears a luxurious dark silk robe over designer loungewear, specifically a dark v-neck t-shirt and matching silk pants. In the blurry midground, a slender and alluring woman with suggestive eye shape and full lips, wearing a revealing, short red silk slip dress with delicate lace trim, is visible out of focus. The background is a blurred high-end officetel interior. The scene is lit by bright, neutral daylight from unseen windows or overhead corridor lighting, casting moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "7db1a65d-46b8-4ce4-8dec-5549292d460b",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_006_ComfyUI_00054_.png"
+    ]
+  },
+  {
+    "cut_number": 7,
+    "scene_id": "S#1",
+    "prompt": "A close-up (ECU) on 아라's delicate bone structure, initially slightly downturned eyes, and thin lips, her eyes wide with shock, brimming with tears of betrayal and profound sadness, looking straight ahead at a blurred 민혁 in the midground, wearing a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric, with a modest boat neckline and long sleeves. The scene is lit by bright, neutral daylight from unseen windows or overhead corridor lighting, casting moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "826c2d1e-f618-432d-9942-c3492e704115",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_007_ComfyUI_00021_.png"
+    ]
+  },
+  {
+    "cut_number": 8,
+    "scene_id": "S#1",
+    "prompt": "A young woman, 아라, with delicate bone structure, slightly downturned eyes, and thin lips, is shown in a close-up, her face and upper shoulders filling the frame. She wears a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric, with a modest boat neckline and long sleeves. Her expression is a complex blend of intense sorrow (70%), deep injustice (80%), and underlying anger (60%), her thin lips slightly trembling. She gazes straight ahead, targeting 민혁, who is visible in the blurry midground. The background shows the interior of a high-end officetel, out of focus. The scene is lit with bright, neutral light from unseen windows or overhead corridor lighting, casting moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "51cc8bf4-17c8-465c-a256-afaf772d9334",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_008_ComfyUI_00022_.png"
+    ]
+  },
+  {
+    "cut_number": 9,
+    "scene_id": "S#1",
+    "prompt": "민혁, a conventionally attractive man with no distinguishing marks, is captured in a CU, focusing on his face and upper shoulders. He wears a luxurious dark silk robe over designer loungewear, consisting of a dark v-neck t-shirt and matching silk pants. Bright, neutral daylight from unseen windows or overhead corridor lighting illuminates the scene, casting moderate, even shadows. His facial expression is a blend of intense boredom and profound contempt, as if he is actively suppressing a yawn while listening, clearly indicating his disdain. He looks directly forward, his gaze fixed on 아라, who is present but blurred in the midground. The background, also out of focus, reveals the luxurious interior of the officetel. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "b5da5f78-9ed3-4863-ad3b-0e0914b9466f",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_009_ComfyUI_00023_.png"
+    ]
+  },
+  {
+    "cut_number": 10,
+    "scene_id": "S#1",
+    "prompt": "A conventionally attractive man with a confident and arrogant posture, displaying a smug, bored expression, is seen in a close-up (CU) shot of his face and upper shoulders. He is wearing a luxurious dark silk robe over a dark v-neck t-shirt and matching silk pants. His facial expression is cold and arrogant (80% coldness, 70% arrogance), and he is looking straight ahead, directly at 아라. Bright, neutral daylight illuminates the scene with moderate, even shadows, originating from unseen windows or overhead corridor lighting. His face is in the foreground, with a blurred 아라 in the midground, and the interior of a high-end officetel apartment visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "435bbdd4-8993-432b-8357-57344a9b0cb7",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_010_ComfyUI_00024_.png"
+    ]
+  },
+  {
+    "cut_number": 11,
+    "scene_id": "S#1",
+    "prompt": "A close-up of 아라's face and upper shoulders. She has delicate bone structure, her initially slightly downturned eyes are now sharp and determined, and her thin lips are set in a firm line, capable of forming a '잔인하게 미소'. Her face shows intense anger (90%), firm resolve (80%), and cold composure (70%), with traces of dried tears on her cheeks. She is wearing a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric, with a modest boat neckline and long sleeves. Her head is tilted straight forward, her gaze fixed directly at 민혁, who is visible in the blurry midground with a conventionally attractive face and a smug expression, wearing a luxurious dark silk robe over designer loungewear. The background shows the interior of a luxurious high-end officetel, out of focus. The scene is lit by bright, neutral daylight from unseen windows or overhead corridor lighting, casting moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "e99ff162-c384-4657-a5ec-a0a0de7cc903",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_011_ComfyUI_00026_.png"
+    ]
+  },
+  {
+    "cut_number": 12,
+    "scene_id": "S#1",
+    "prompt": "Ara's slender foot, clad in an elegant cream-colored pump that complements her simple, elegant cream-colored midi dress, is shown firmly trampling a high-heeled black patent leather pump belonging to Juri, which lies on the high-end officetel corridor floor. The shot captures the moment Ara's foot is turning away coldly after the act. In the midground, the blurred figures of Minhyuk and Juri are dimly visible, while the luxurious officetel floor extends into the background. Bright, neutral daylight illuminates the scene from unseen windows or overhead corridor lighting, casting moderate, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "710b184f-5484-48e7-b7e3-a6b6ac480a78",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_012_ComfyUI_00025_.png"
+    ]
+  },
+  {
+    "cut_number": 13,
+    "scene_id": "S#2",
+    "prompt": "A young woman, 아라, with delicate bone structure, slightly downturned eyes, and thin lips, her posture slightly stooped. She wears a simple, elegant cream-colored midi dress in a soft, flowing silk blend fabric, with a modest boat neckline and long sleeves, visibly rumpled and stained with dried tears. The scene is lit by afternoon light, predominantly artificial fluorescent lighting with a neutral to cool color temperature, creating soft, even shadows, possibly with some soft natural light from a window. CU, focusing on her face and upper shoulders. Her expression is profoundly tired, showing deep despair and a hollow, empty gaze. Her head is tilted forward, eyes staring blankly into empty space. Her face is in the foreground, with a blurred doctor visible in the midground, and a sterile hospital consultation room wall in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "a88f8a98-c2e0-4da1-a61e-8568194f081c",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_013_ComfyUI_00027_.png"
+    ]
+  },
+  {
+    "cut_number": 14,
+    "scene_id": "S#2",
+    "prompt": "A close-up insert shot of a medical chart, clearly displaying the diagnosis '췌장암 말기 - 기대 수명 1개월' (terminal pancreatic cancer - 1 month life expectancy) in Korean text. A single, glistening tear, falling from an unseen source, is captured in mid-air just above the chart, about to make contact, or has just landed, creating a small, wet, shimmering mark on the paper. In the midground, slightly out of focus, the slender fingers of 아라's hand are visible, resting gently near the chart. The sleeve of her cream-colored midi dress, visibly rumpled and perhaps stained with dried tears, is also partially visible. The scene is illuminated by predominantly artificial fluorescent lighting, casting a neutral to cool color temperature with soft, even shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "fd771edc-89b1-452d-a875-25bfdc45055d",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_014_ComfyUI_00028_.png"
+    ]
+  },
+  {
+    "cut_number": 15,
+    "scene_id": "S#2",
+    "prompt": "A male doctor, with a professional, perhaps weary expression and average build, wears a crisp white doctor's coat over a light blue button-down shirt, dark grey trousers, and polished black leather shoes. The lighting is predominantly artificial fluorescent, with some soft natural light from a window, featuring a neutral to cool color temperature and soft, even shadows. The camera frames him in a CU, showing his face and upper shoulders. He has a very serious and sympathetic expression, looking directly forward towards a blurred Ara in the midground. His hands are not specifically positioned or holding any objects. His face is in sharp focus in the foreground, with a blurred Ara in the midground, and a sterile, functional, impersonal doctor's consultation room in the blurred background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "42932a2c-b49d-4edd-b6f9-2034aafc5fbb",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_015_ComfyUI_00029_.png"
+    ]
+  },
+  {
+    "cut_number": 16,
+    "scene_id": "S#2",
+    "prompt": "An extreme close-up on 아라's face, focusing on her initially slightly downturned eyes, delicate bone structure, and thin lips, as tears stream down her face while she bursts into a hollow, broken laugh, conveying overwhelming despair, hollowness, and profound sadness. She wears a cream-colored midi dress, visibly rumpled and stained with dried tears. Her gaze is directed straight ahead, meeting the doctor's eyes. The lighting is predominantly artificial fluorescent with a neutral to cool color temperature, creating soft, even shadows, suggesting an afternoon setting. 아라's eyes are in sharp focus in the foreground, with the doctor subtly blurred in the midground. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ea464a2f-b8c4-40b4-9d29-240652b5ed20",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_016_ComfyUI_00030_.png"
+    ]
+  },
+  {
+    "cut_number": 17,
+    "scene_id": "S#2",
+    "prompt": "A young woman, 아라, with delicate bone structure, slightly downturned eyes, and thin lips, her average height and slender build, wears a visibly rumpled cream-colored midi dress, perhaps stained with dried tears, reflecting her '초췌한' state. Her face and upper shoulders are captured in a close-up, illuminated by afternoon lighting, predominantly artificial fluorescent light with a neutral to cool color temperature and soft, even shadows. She displays a complex expression of deep self-mockery (80%), underlying anger (70%), and overwhelming emptiness/resignation (90%), forming a bitter, hollow laugh. Her head is tilted straight forward, eyes looking directly at the doctor, who is blurred in the midground, with the sterile doctor's consultation room softly visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "37c9cebf-e8ea-4cf7-8e5a-b23b202c7ab5",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_017_ComfyUI_00031_.png"
+    ]
+  },
+  {
+    "cut_number": 18,
+    "scene_id": "S#2",
+    "prompt": "A professional-looking doctor, with a weary expression, no distinguishing marks, wearing a crisp white doctor's coat over a light blue button-down shirt, dark grey trousers, and polished black leather shoes. The scene is lit by predominantly artificial fluorescent lighting, with a neutral to cool color temperature, casting soft, even shadows, suggesting an afternoon setting. Close-up of his face and upper shoulders, he has a deeply regretful and somber expression, conveying both pity and grief, his gaze directed straight ahead towards a blurry, out-of-focus figure of Ara in the midground. The background, also out of focus, reveals a sterile and functional doctor's consultation room. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "3a2f4842-3899-4dc8-86cf-3e06bcdd46d7",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_018_ComfyUI_00032_.png"
+    ]
+  },
+  {
+    "cut_number": 19,
+    "scene_id": "S#2",
+    "prompt": "Ara, with delicate bone structure, sharp and determined eyes, and thin lips, wears a visibly rumpled cream-colored midi dress in a soft, flowing silk blend fabric with a modest boat neckline and long sleeves, stained with dried tears. Dried tear stains are visible on her face and dress. The scene is lit by afternoon light, predominantly artificial fluorescent lighting with a neutral to cool color temperature, creating soft, even shadows. An extreme close-up (ECU) focuses on her eyes and mouth, revealing her initially sorrowful eyes now sharp and intensely determined (90%), cold (80%), and brimming with venom (100%), with visible dried tear streaks on her skin. Her thin lips are set. Her head is tilted straight forward, and her gaze is directed into empty space. The foreground shows Ara's eyes in sharp focus, while the background is a blurry, sterile, functional, and somewhat impersonal doctor's consultation room. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "212b0cbc-7cd1-4f21-aad9-46de978ade4a",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_019_ComfyUI_00033_.png"
+    ]
+  },
+  {
+    "cut_number": 20,
+    "scene_id": "S#3",
+    "prompt": "박영자, with sharp features, an average to stout build, and an imposing, domineering posture, displays a furious 100% expression, her gaze intensely fixed on 아라's cheek. She is wearing a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, paired with a cream silk blouse and low-heeled designer pumps. Her right hand is in the act of powerfully slapping 아라's cheek. 아라, with delicate bone structure, an average height, and a slender build, shows an 80% shocked expression, her head snapped to the side by the impact. She is wearing a pristine, floor-length white satin gown with a form-fitting bodice, a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps, now with a large, spreading red wine stain on the front, making it appear '핏빛으로 물든다'. A visible red mark is forming on her left cheek from the slap, and her hair is damp and matted with wine on one side. The scene is illuminated by warm, opulent lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. Action shot, capturing both 박영자 and 아라 from the waist up. The background is a blurry, luxurious banquet hall. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ebac9c33-08cd-453b-af1f-997393c58b63",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_020_ComfyUI_00056_.png"
+    ]
+  },
+  {
+    "cut_number": 21,
+    "scene_id": "S#3",
+    "prompt": "아라, with delicate bone structure, slightly downturned eyes, and thin lips, wearing a pristine, floor-length white satin gown with a form-fitting bodice, subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. Her left cheek shows a visible red mark/bruise from a recent slap. Red wine is actively splashing across her face, dripping down, and soaking into her hair on one side, while simultaneously beginning to spread across the front of her white satin gown, creating a vivid, blood-red stain. The scene is illuminated by warm, opulent lighting from multiple ornate chandeliers, with key light from above casting dramatic highlights and deep shadows. An extreme close-up (ECU) focuses tightly on her eyes and mouth, revealing a complex expression of intense pain, profound humiliation, and simmering rage. Her head is sharply tilted to the side, a direct consequence of the impact. Photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "5b8cf29e-833f-4c88-9410-049582bb72a2",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_021_ComfyUI_00034_.png"
+    ]
+  },
+  {
+    "cut_number": 22,
+    "scene_id": "S#3",
+    "prompt": "박영자, with sharp features, an average to stout build, and imposing, domineering posture, her sharp features twisted in full fury and intense contempt, displaying a perpetually disapproving and angry expression. She is wearing a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, paired with a cream silk blouse and low-heeled designer pumps. Her head is tilted directly forward, eyes glaring intensely forward, targeting 아라. The scene is set at night with warm, opulent lighting from multiple luxurious chandeliers; key light from above creates dramatic highlights and deep shadows, enhancing a sense of grandeur and tension. The camera frames a close-up (CU) of 박영자's face and upper shoulders. 박영자's face is in sharp focus in the foreground, with a blurred 아라 visible in the midground, and a blurred M&A signing ceremony banquet hall banner in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "9f8b0f01-c458-4e4c-9c9d-acfe46282cca",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_022_ComfyUI_00035_.png"
+    ]
+  },
+  {
+    "cut_number": 23,
+    "scene_id": "S#3",
+    "prompt": "A conventionally attractive man with a conventionally attractive face, displaying an 80% arrogant and 70% contemptuous facial expression, wearing a custom-tailored dark grey three-piece suit in fine wool, a crisp white dress shirt, a deep blue silk tie with a subtle pattern, and polished black leather oxford shoes. His head is slightly turned towards a slender, alluring woman with suggestive eye shape and full lips, who is wearing a shimmering, floor-length emerald green sequin gown with a backless design and high slit, but his eyes are fixed forward, directly at 아라. His right hand is wrapped around the woman's shoulder. The scene is lit by warm, opulent night lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. The camera frames his face and upper shoulders. In the foreground is the man's face, in the midground is the woman's shoulder, and the background shows a blurred banquet hall. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "e67c65f1-6020-4559-84a1-b89404d88691",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_023_ComfyUI_00036_.png"
+    ]
+  },
+  {
+    "cut_number": 24,
+    "scene_id": "S#3",
+    "prompt": "A close-up (CU) of 민혁, a conventionally attractive man with an athletic to average build, displaying a confident and arrogant posture. He wears a custom-tailored dark grey three-piece suit in fine wool, a crisp white dress shirt, a deep blue silk tie with a subtle pattern, and polished black leather oxford shoes. His face is set in an expression of 90% contempt and 80% arrogance, looking straight ahead. His right hand is wrapped around 주리's shoulder. The scene is illuminated by warm, opulent lighting from multiple ornate chandeliers at night, with key light from above creating dramatic highlights and deep shadows. 민혁's face is in the foreground, with a blurry 주리 in the midground, and the luxurious M&A signing ceremony banquet hall subtly blurred in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "e06651c3-a639-4e66-ad6f-74b67ea386d2",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_024_ComfyUI_00037_.png"
+    ]
+  },
+  {
+    "cut_number": 25,
+    "scene_id": "S#3",
+    "prompt": "A young woman, 아라, with delicate bone structure, sharp and determined eyes, and thin lips, is shown in a close-up, her face and upper shoulders filling the frame. She wears a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. A visible red mark/bruise mars her left cheek, and a large, spreading red wine stain covers the front of her white satin gown, appearing as if stained with blood. Her hair is damp and matted with wine on one side. Her expression is intensely angry, unwavering, determined, and coldly composed, her sharp eyes fixed straight forward, targeting a figure just out of frame. The scene is lit by warm, opulent lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. Her face is in the sharp foreground, with a very blurred figure of a man in the midground, and the luxurious banquet hall as an even more blurred background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "30b48f45-fd32-4196-a571-20faf751245b",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_025_ComfyUI_00039_.png"
+    ]
+  },
+  {
+    "cut_number": 26,
+    "scene_id": "S#3",
+    "prompt": "Cha Do-jin, with sharp, intelligent eyes and a serious, observant expression, his tall, lean build and composed posture visible from the upper shoulders, wearing an impeccably tailored charcoal grey two-piece suit in a fine worsted wool, a crisp white dress shirt, and a slim black silk tie. The scene is lit by warm, opulent lighting from multiple grand chandeliers, with key light from above creating dramatic highlights and deep shadows. The camera is framed in a close-up, focusing on his face and upper shoulders. His facial expression is serious, intensely observant, and neutral, with his sharp, intelligent eyes fixed straight ahead, targeting Ara. In the foreground is Cha Do-jin's face, with a blurry banquet hall in the midground, and the VIP room entrance visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "778ccb1d-9e21-43b0-a441-3fb73339b845",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_026_ComfyUI_00038_.png"
+    ]
+  },
+  {
+    "cut_number": 27,
+    "scene_id": "S#3",
+    "prompt": "아라, with delicate bone structure, sharp and determined eyes, and thin lips forming a cruel, elegant, and determined smile. She is wearing a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. A visible red mark/bruise is on her left cheek. A large, spreading red wine stain makes the front of her white satin gown appear blood-red. Her hair is damp and matted with wine on one side. The scene is lit by warm, opulent night lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. ECU (eyes/mouth only) framing, her gaze alternating directly between Park Young-ja and Min-hyuk. Her right hand is gracefully sweeping back her wine-soaked, matted hair. The midground shows a blurred, opulent banquet hall. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "f709eb96-2e34-4371-be1e-bf9171ab7686",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_027_ComfyUI_00040_.png"
+    ]
+  },
+  {
+    "cut_number": 28,
+    "scene_id": "S#3",
+    "prompt": "A close-up shot of 아라, with her delicate bone structure and slender build, a visible red mark/bruise on her left cheek, wearing a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. The front of her white satin gown has a large, spreading red wine stain, appearing '핏빛으로 물든다'. Her hair is damp and matted with wine on one side. 아라's hands gracefully and unhesitatingly manipulate the tablet screen, moving with the precision of someone who has managed a group's slush fund for 10 years. The tablet is held within 아라's bag, which is visible in the midground, with the luxurious banquet hall blurred in the background. The scene is lit by warm, opulent lighting from multiple ornate chandeliers, casting dramatic highlights and deep shadows, enhancing a sense of grandeur and tension, as it is night. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "435d6522-b49f-4a65-9ca6-0521f4793546",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_028_ComfyUI_00055_.png"
+    ]
+  },
+  {
+    "cut_number": 29,
+    "scene_id": "S#3",
+    "prompt": "A close-up insert shot of a delicate hand, belonging to Ara, wearing a pristine, floor-length white satin gown, with a large, spreading red wine stain visible on the fabric near her arm, resting on a sleek, modern tablet screen. The tablet screen prominently displays the text: \"태성그룹 M&A 합병 담보금 3,000억 원 전액 송금. 수신인: 강아라 하드월렛 ➔ 이체 완료\". Warm, opulent lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "1bcfbfb6-c31e-4488-b22e-12eee4c0026e",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_029_ComfyUI_00042_.png"
+    ]
+  },
+  {
+    "cut_number": 30,
+    "scene_id": "S#3",
+    "prompt": "박영자의 sharp features, her eyes wide with horror and rage, wearing a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, paired with a cream silk blouse and low-heeled designer pumps. Night, warm, opulent lighting from multiple ornate chandeliers, key light from above creating dramatic highlights and deep shadows. ECU, focusing on her eyes and mouth, as she gazes intently at the smartphone screen held in her right hand. Her eyes are wide with shock and fury, mouth agape in a horrified expression. Her face and the smartphone are in sharp focus, with a luxurious, blurred banquet hall in the midground. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "726ffef3-cae7-47b9-b4e7-274f43c0cb47",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_030_ComfyUI_00041_.png"
+    ]
+  },
+  {
+    "cut_number": 31,
+    "scene_id": "S#3",
+    "prompt": "A close-up (CU) of 박영자, with sharp features and an imposing, domineering posture, displaying a perpetually disapproving or angry expression, embodying a vicious, domineering, greedy, classist persona. She wears a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, paired with a cream silk blouse and low-heeled designer pumps. Her face is contorted with 100% fury and 100% horror/shock, her head tilted straight forward, gazing directly at a blurred 아라 in the midground, who has a visible red mark/bruise on her left cheek, whose white satin gown is visibly stained with a large, spreading red wine mark, making it appear '핏빛으로 물든다', and whose hair is damp and matted with wine on one side, also appearing '핏빛으로 물든다'. She holds a mobile phone in her right hand. The scene is illuminated by warm, opulent night lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. 박영자's face and upper shoulders are in sharp focus in the foreground, with a blurred 아라 in the midground, and the luxurious M&A signing ceremony banquet hall, featuring high ceilings, ornate decorations, and a prominent '퍼스 그룹 X 태성 그룹 인수합병 조인식' banner, in the softly blurred background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "forced",
+    "status": "success",
+    "prompt_id": "662c146b-b073-491a-b416-d695b15a2704",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_031_ComfyUI_00057_.png"
+    ]
+  },
+  {
+    "cut_number": 32,
+    "scene_id": "S#3",
+    "prompt": "A conventionally attractive man with average height and an athletic to average build, wearing a custom-tailored dark grey three-piece suit in fine wool, a crisp white dress shirt, a deep blue silk tie with a subtle pattern, and polished black leather oxford shoes. The scene is illuminated by warm, opulent lighting from multiple ornate chandeliers, with a key light from above creating dramatic highlights and deep shadows. CU of his face and upper shoulders. He displays a deeply confused and flustered expression, his head tilted, and his gaze directed towards a blurry 박영자 in the midground. The luxurious M&A signing ceremony banquet hall, with high ceilings and ornate decorations, is heavily blurred in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "abe3fea4-0eb8-40f7-bfb3-4924f2250dcf",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_032_ComfyUI_00043_.png"
+    ]
+  },
+  {
+    "cut_number": 33,
+    "scene_id": "S#3",
+    "prompt": "아라, with delicate bone structure, sharp and determined eyes, thin lips forming a chilling smile, average height, slender build, and erect, defiant posture, is seen in a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. Her left cheek bears a visible red mark/bruise, and a large, spreading red wine stain covers the front of her white satin gown, with her hair damp and matted with wine on one side. She displays a cold, cruel, and satisfied expression, her gaze directed straight ahead towards 박영자, who is visible but blurred in the midground. Her hands are calmly putting a tablet into a bag. The scene is bathed in warm, opulent lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. The camera frames her face and upper shoulders in a close-up, with the luxurious M&A signing ceremony banquet hall visible in the blurred background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "a65b9808-737d-48ab-b38a-2b506201136b",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_033_ComfyUI_00045_.png"
+    ]
+  },
+  {
+    "cut_number": 34,
+    "scene_id": "S#3",
+    "prompt": "Tall, lean 차도진, with sharp, intelligent eyes and no distinguishing marks, his composed posture broken by an expression of utter shock, bewilderment, and panic, is rushing out of the VIP room entrance. He is wearing an impeccably tailored charcoal grey two-piece suit in a fine worsted wool, a crisp white dress shirt, a slim black silk tie, and polished black leather dress shoes. His head is tilted straight forward, his wide, sharp eyes fixed directly on 아라. Warm, opulent lighting from multiple ornate chandeliers casts dramatic highlights and deep shadows, illuminating him in the foreground as he bursts past the VIP room entrance in the midground, with the blurred opulent banquet hall visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "21c31314-7cf1-4fba-9b2b-6eed390bfb16",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_034_ComfyUI_00044_.png"
+    ]
+  },
+  {
+    "cut_number": 35,
+    "scene_id": "S#3",
+    "prompt": "아라, with delicate bone structure, sharp and determined eyes, slender build, and erect, defiant posture, wears a pristine, floor-length white satin gown with a form-fitting bodice, subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. She has a visible red mark/bruise on her left cheek, a large, spreading red wine stain on the front of her gown, and her hair is damp and matted with wine on one side. 박영자, with sharp features and an imposing, domineering posture, wears a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, a cream silk blouse, and low-heeled designer pumps. The scene is set at night, with warm, opulent lighting from multiple ornate chandeliers, casting dramatic highlights and deep shadows. Action shot, waist up, focusing on the interaction between the two women. 박영자's face is contorted in furious anger, her gaze fixed on 아라's collar as her hand reaches out to grab it. 아라's face is cold, calm, and composed as her hand firmly pushes 박영자's hand away. In the foreground, 박영자's and 아라's hands are in sharp focus, their faces in the midground, and the luxurious M&A signing ceremony banquet hall is a blurry background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "d94c44b5-efd9-45ef-8fc0-d894c3e2e208",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_035_ComfyUI_00046_.png"
+    ]
+  },
+  {
+    "cut_number": 36,
+    "scene_id": "S#3",
+    "prompt": "아라, with delicate bone structure, sharp and determined eyes, and thin lips forming a cold, detached, and cruel smile. She wears a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps. A visible red mark/bruise mars her left cheek, and a large, spreading red wine stain covers the front of her gown, making it appear blood-red, with her hair damp and matted with wine on one side. The scene is lit by warm, opulent lighting from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. CU, showing her face and upper shoulders, with her head straight ahead, looking directly at a blurred 박영자 in the midground, and the luxurious banquet hall subtly blurred in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "a60ab685-ba50-4629-a99a-7fe1a957a58d",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_036_ComfyUI_00047_.png"
+    ]
+  },
+  {
+    "cut_number": 37,
+    "scene_id": "S#3",
+    "prompt": "An extreme close-up (ECU) of 박영자's mouth, her sharp features, no distinguishing marks, wearing a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch, paired with a cream silk blouse and low-heeled designer pumps. Her mouth is wide open in a visceral scream, contorted with intense shock, overwhelming fury, and utter despair, facing straight ahead towards a blurry 아라 in the background. Warm, opulent lighting from multiple ornate chandeliers casts dramatic highlights and deep shadows, enhancing the sense of grandeur and tension. The foreground is dominated by 박영자's screaming mouth, with her face slightly blurred in the midground, and a very blurry 아라 in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ce0565de-51f1-483d-962a-bac99c5ddfcf",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_037_ComfyUI_00048_.png"
+    ]
+  },
+  {
+    "cut_number": 38,
+    "scene_id": "S#3",
+    "prompt": "A conventionally attractive man with no distinguishing marks, average height, athletic build, and confident posture, 민혁, wears a custom-tailored dark grey three-piece suit in fine wool, a crisp white dress shirt, and a deep blue silk tie with a subtle pattern. The scene is lit by warm, opulent lighting from multiple ornate chandeliers, creating dramatic highlights and deep shadows, characteristic of a night banquet. CU of 민혁, focusing on his face and upper shoulders. He has a deeply shocked, empty, and confused expression. His head is tilted directly forward, gazing intently towards 아라. His face is in sharp focus in the foreground. In the midground, a blurry figure of 아라 is visible. In the background, the luxurious M&A signing ceremony banquet hall, with high ceilings and ornate decorations, is visible as a soft blur. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "8fe78756-8f9b-49d2-b024-2af6ce6d48eb",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_038_ComfyUI_00050_.png"
+    ]
+  },
+  {
+    "cut_number": 39,
+    "scene_id": "S#3",
+    "prompt": "A tall, lean built man with composed posture, sharp, intelligent eyes, and a serious expression, 차도진 is impeccably tailored in a charcoal grey two-piece suit in a fine worsted wool, a crisp white dress shirt, a slim black silk tie, and polished black leather dress shoes. He displays a deeply shocked and bewildered facial expression, with wide eyes and a slightly agape mouth, indicating extreme surprise and confusion. The scene is lit by warm, opulent lighting from multiple ornate chandeliers overhead, casting dramatic highlights and deep shadows. The camera frames 차도진's face and upper shoulders in a close-up, his gaze directed straight ahead, fixed on 아라. In the foreground, 차도진's face is in sharp focus. In the midground, a blurred 아라 is visible, the target of his gaze. In the background, the luxurious M&A signing ceremony banquet hall, with its high ceilings and ornate decorations, is softly out of focus. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "0a0ea05f-c61b-4a63-8496-46b1c062e1eb",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_039_ComfyUI_00049_.png"
+    ]
+  },
+  {
+    "cut_number": 40,
+    "scene_id": "S#3",
+    "prompt": "A full body shot from behind of 아라, with average height, slender build, and an erect, defiant posture, walking away. She is wearing a pristine, floor-length white satin gown, form-fitting bodice with a subtle sweetheart neckline, flowing skirt, and delicate spaghetti straps, which is now visibly stained with a large, spreading red wine stain on the front, appearing '핏빛으로 물든다'. Her hair on one side is damp and matted with wine. Her head is held straight, and she walks with an unfazed and resolute determination towards the exit. In the midground, behind her, 박영자, with sharp features and a perpetually angry expression, is screaming, wearing a bespoke navy blue tweed suit with a matching skirt and jacket, adorned with a large pearl brooch. Next to her, 민혁, conventionally attractive, looks stunned and bewildered in his custom-tailored dark grey three-piece suit. 차도진, with sharp, intelligent eyes, appears flustered and surprised in his impeccably tailored charcoal grey two-piece suit. The scene is set in a luxurious M&A signing ceremony banquet hall with high ceilings, ornate decorations, and a prominent '퍼스 그룹 X 태성 그룹 인수합병 조인식' banner, with the exit visible in the background. The lighting is night, warm and opulent from multiple ornate chandeliers, with key light from above creating dramatic highlights and deep shadows. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ee03d6c2-ecf4-49bd-9436-1ea794403487",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\cut_040_ComfyUI_00051_.png"
+    ]
+  }
+]

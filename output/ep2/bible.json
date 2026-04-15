@@ -1,0 +1,54 @@
+{
+  "episode_id": "EP02",
+  "characters": {
+    "아라": {
+      "character_DNA": {
+        "face_taxonomy": "Sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, capable of expressing both defiance and cold amusement. No distinguishing marks mentioned.",
+        "body_proportions": "Average height, slender build, narrow shoulders, often carries herself with a defiant posture, though currently weakened.",
+        "persona_markers": "Core deficiency: Terminal illness (pancreatic cancer), driving a desperate, manipulative survival strategy. Habitual expression set: A mix of frantic desperation, defiant laughter, and chilling composure under duress."
+      },
+      "default_wardrobe": "Deep red, floor-length silk evening gown, now heavily soaked with rainwater and stained with dark red wine, clinging to her body, visibly disheveled and possibly torn at the hem. Her hair is completely wet and plastered to her face."
+    },
+    "차도진": {
+      "character_DNA": {
+        "face_taxonomy": "Strong jawline, sharp, intense eyes that can appear bloodshot when enraged, prominent nose, thin lips. Capable of expressing extreme anger, frustration, bewilderment, and calculating resolve. No distinguishing marks mentioned.",
+        "body_proportions": "Tall, muscular build, broad shoulders, projects an imposing and aggressive presence. Default posture is confident and authoritative.",
+        "persona_markers": "Core deficiency: Overwhelming ambition and fear of losing his inheritance/succession. Habitual expression set: Intense anger, frustration, disbelief, quickly shifting to cold calculation and control."
+      },
+      "default_wardrobe": "A meticulously tailored, dark charcoal grey business suit, likely wool or a high-quality blend, paired with a crisp white dress shirt and a solid dark blue silk tie. The suit is now completely soaked from the heavy rain, clinging to his frame."
+    },
+    "박영자 경호원들": {
+      "character_DNA": {
+        "face_taxonomy": "Generic, stern, alert expressions; professional demeanor.",
+        "body_proportions": "Uniformly tall, muscular, and imposing builds; disciplined, upright posture.",
+        "persona_markers": "Core deficiency: None specific, driven by professional duty. Habitual expression set: Focused, vigilant, ready for action."
+      },
+      "default_wardrobe": "Standard issue black security suits, likely a durable polyester blend, with crisp white dress shirts and dark ties. Equipped with earpieces and discreet communication devices."
+    }
+  },
+  "scenes": {
+    "S#1": {
+      "location": "A rain-swept, bustling city street directly in front of a grand, brightly lit luxury hotel entrance. A prominent crosswalk spans the road, wet and reflective under the night sky.",
+      "lighting_environment": "Dark night, heavy, continuous downpour. Key light from bright hotel entrance lights and ambient streetlights, creating strong, shimmering reflections on the wet road and surfaces. Cool color temperature, high contrast with deep shadows softened by the rain.",
+      "spatial_layout_916": "Vertical frame emphasizing the height and grandeur of the hotel in the background, the dramatic pouring rain, and Ara's solitary, disheveled figure. The frame will initially center Ara, then shift to highlight the imposing approach and sudden stop of the luxury sedan, creating a sense of imminent threat.",
+      "character_wardrobe": {
+        "아라": "Deep red, floor-length silk evening gown, now heavily soaked with rainwater and stained with dark red wine. The fabric clings to her body, and the dress appears disheveled, possibly with minor tears at the hem. Her long hair is completely wet and plastered to her face and shoulders."
+      },
+      "persistent_artifacts": []
+    },
+    "S#2": {
+      "location": "The immediate vicinity around a large, imposing black luxury sedan, still parked on the rain-swept road in front of the hotel. The car itself acts as a central, dominant element of the physical space.",
+      "lighting_environment": "Continuation of the heavy rain and dark night. Key light from the car's headlights (if on) and ambient street/hotel lights, creating harsh reflections on the wet car body and ground. Cool color temperature. High shadow intensity, with dramatic highlights on wet skin and fabric. Close-up shots will emphasize the glistening rain on faces.",
+      "spatial_layout_916": "Frequent use of close-up (CU) shots, particularly on characters' faces, eyes, and hands, to convey intense emotion and physical proximity. The vertical frame will emphasize the dramatic interaction between Ara and Do-jin, often framing them tightly against the backdrop of the luxury car and the pouring rain. The car's interior will be briefly visible as Ara is pushed inside.",
+      "character_wardrobe": {
+        "아라": "Deep red, floor-length silk evening gown, now even more saturated with rainwater and wine stains, clinging tightly to her form. The dress is visibly disheveled and potentially torn from the struggle. Her hair remains completely wet and plastered. She wears a sleek, dark-colored smart watch on her left wrist.",
+        "차도진": "Meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie. The entire outfit is now completely soaked from the heavy rain, clinging to his body. His tie is disheveled and slightly askew from Ara's grip.",
+        "박영자 경호원들": "Standard issue black security suits, white dress shirts, and dark ties, all now visibly wet and clinging from the heavy rain as they emerge from the hotel."
+      },
+      "persistent_artifacts": [
+        "Ara's deep red evening gown is heavily soaked with rainwater and stained with dark red wine, disheveled and potentially torn. Her hair is completely wet and plastered to her face. A subtle red mark or bruise may be forming on the back of her head from the impact with the car window.",
+        "Cha Do-jin's dark business suit and tie are completely soaked with rainwater, and his tie is disheveled."
+      ]
+    }
+  }
+}

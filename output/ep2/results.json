@@ -1,0 +1,314 @@
+[
+  {
+    "cut_number": 1,
+    "scene_id": "S#1",
+    "prompt": "Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, wearing a deep red, floor-length silk evening gown, now heavily soaked with rainwater and stained with dark red wine, clinging to her body, visibly disheveled and possibly torn at the hem. Her long hair is completely wet and plastered to her face and shoulders, drenched with rain and wine. Dark night, heavy, continuous downpour. Key light from bright hotel entrance lights and ambient streetlights, creating strong, shimmering reflections on the wet road and surfaces. Cool color temperature, high contrast with deep shadows softened by the rain. Extreme close-up (ECU) of her eyes and mouth only. Her expression is a powerful mix of desperate panic and defiant resolve. Her eyes gaze forward, unfocused. Foreground shows her wet face in extreme detail, midground features blurred city lights, and the background shows heavy rain streaks. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ad68855f-b987-47fb-9eb5-81ccd30a18d9",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_001.png"
+    ]
+  },
+  {
+    "cut_number": 2,
+    "scene_id": "S#1",
+    "prompt": "A low angle action shot of a black luxury sedan's wet tires screeching to a halt, just inches from the knees of a Korean woman. The car's tires are splashing water violently on a rain-swept, wet road. The Korean woman's slender legs are visible beneath a deep red, floor-length silk evening gown, which is heavily soaked with rainwater and stained with dark red wine, clinging to her body, disheveled, and possibly torn at the hem. Her gown is visibly soaked and stained. Her long hair is completely wet and plastered to her face and shoulders. The scene is set on a dark night with a heavy, continuous downpour. Key light from bright hotel entrance lights and ambient streetlights creates strong, shimmering reflections on the wet road and surfaces. Cool color temperature, high contrast with deep shadows softened by the rain. Foreground shows the wet road and car tires, midground shows the Korean woman's legs (blurred), and the background shows the hotel entrance (blurred). photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "db0b3769-eb07-47e5-998d-19cb9cdd5923",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_002.png"
+    ]
+  },
+  {
+    "cut_number": 3,
+    "scene_id": "S#2",
+    "prompt": "Cha Do-jin, a Korean man with a strong jawline, prominent nose, and thin lips, wears a meticulously tailored, dark charcoal grey business suit, crisp white dress shirt, and dark blue silk tie, all completely soaked and clinging to his body from the heavy rain. His tie is disheveled and slightly askew. The dark night is illuminated by ambient street and hotel lights, creating harsh reflections on wet surfaces under a heavy, continuous downpour, with a cool color temperature, high shadow intensity, and dramatic highlights on his wet skin, emphasizing the glistening rain on his face. An ECU shot focuses on his sharp, intense eyes, which are bloodshot and express 95% rage and 85% frustration, glaring intensely towards Ara. Glistening rain streaks are prominent in the foreground. His face is in the midground, with a blurred luxury car in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "b91e7ae2-c049-4d0d-a648-05ddcca0caac",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_003.png"
+    ]
+  },
+  {
+    "cut_number": 4,
+    "scene_id": "S#2",
+    "prompt": "A Korean man, Cha Do-jin, with a strong jawline, sharp, intense eyes, prominent nose, thin lips, tall, muscular build, and broad shoulders, is shown waist up. He wears a meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie, all completely soaked from heavy rain and clinging to his body, with his tie disheveled and slightly askew. He is intensely angry and frustrated, jaw clenched, his gaze fixed intensely on the Korean woman Ara's face. He violently grips Ara's left wrist with his right hand, twisting her arm. The Korean woman Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, slender build, and narrow shoulders, is shoved against the wet, imposing black luxury sedan. Her deep red, floor-length silk evening gown is saturated with rainwater and dark red wine stains, clinging tightly to her form, visibly disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is forming on the back of her head from the impact with the car window. She wears a sleek, dark-colored smart watch on her left wrist. Her facial expression is desperate and defiant, eyes wide with struggle, her gaze directed defiantly at Do-jin, her free hand balled into a fist. The scene is set at dark night, with a heavy, continuous downpour. Key light from ambient street and hotel lights creates harsh reflections on the wet car body and ground. The cool color temperature and high shadow intensity are present, with dramatic highlights on their wet skin and fabric, and glistening rain on their faces. Do-jin's arm and Ara's arm are in the foreground, their bodies against the car are in the midground, and the pouring rain is in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "1925be01-b730-48ab-bc02-f0ef9c70206a",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_004.png"
+    ]
+  },
+  {
+    "cut_number": 5,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, is shown in a CU from behind her head, impacting a wet car window. She is wearing a deep red, floor-length silk evening gown, now heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn from a struggle. Her long hair is completely wet and plastered to her face and shoulders, splaying around the impact point on the car window. A subtle red mark or bruise is forming on the back of her head. Her partially visible face registers intense pain (70%) and shock (50%), her eyes unfocused or closed from the impact. The scene is set on a dark night with heavy, continuous downpour. Key light from car headlights and ambient street/hotel lights creates harsh reflections on the wet car window and her wet hair. The lighting has a cool color temperature, high shadow intensity, with dramatic highlights on her glistening wet skin and fabric. Foreground is Ara's head, midground is the wet car window, and the background shows blurred pouring rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "965f096d-3d71-4ffc-ab19-bbbe342e8b7b",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_005.png"
+    ]
+  },
+  {
+    "cut_number": 6,
+    "scene_id": "S#2",
+    "prompt": "A close-up (CU) of a Korean man, Cha Do-jin, his face featuring a strong jawline, sharp, intense eyes, prominent nose, and thin lips. He wears a meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie, all completely soaked from heavy rain, clinging to his body, with his tie disheveled and slightly askew. Rain streams down his face. His head is slightly tilted down, and his eyes are intensely fixed on Ara's eyes. His facial expression is grim and furious, conveying intense cold fury and determination. He is leaning in close, his face in the foreground. In the midground, Ara's blurred shoulder is visible. In the background, a wet luxury car is blurred. The scene is set on a dark night with a heavy, continuous downpour. Key light from ambient street and hotel lights, creating harsh reflections on his wet face and suit, with glistening rain on his skin. Cool color temperature, high shadow intensity, and dramatic highlights. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "36717b7e-28d3-47b6-96b0-a7e858c33d26",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_006.png"
+    ]
+  },
+  {
+    "cut_number": 7,
+    "scene_id": "S#2",
+    "prompt": "Korean woman Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, wearing a deep red, floor-length silk evening gown, heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn at the hem. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is forming on the back of her head. She wears a sleek, dark-colored smart watch on her left wrist. CU on Ara's face and upper shoulders, her head tilted slightly up, gazing directly into the blurred eyes of Korean man Cha Do-jin, whose blurred shoulder is visible in the midground. A manic, defiant laugh escapes her thin lips, rain mixing with her tears, expressing extreme defiance (90), desperation (70), and manic laughter (80). She is pinned against the wet, dark luxury car in the background. The lighting is a dark night with a heavy, continuous downpour, key light from ambient street and hotel lights creating harsh reflections on the wet car body and ground, cool color temperature, high shadow intensity with dramatic highlights on her wet skin and fabric, emphasizing glistening rain on her face. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "96c1b642-9962-4094-9e1a-87239183691b",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_007.png"
+    ]
+  },
+  {
+    "cut_number": 8,
+    "scene_id": "S#2",
+    "prompt": "A Korean man, Cha Do-jin, with a strong jawline, sharp, intense eyes, prominent nose, and thin lips, is featured in an ECU shot focusing on his eyes. He is wearing a meticulously tailored, dark charcoal grey business suit, crisp white dress shirt, and a solid dark blue silk tie. The entire outfit is completely soaked from the heavy rain, clinging to his body, and his tie is disheveled and slightly askew. His dark business suit and tie are completely soaked with rainwater. The lighting is a dark night with a heavy, continuous downpour. Key light from ambient street/hotel lights creates harsh reflections on his wet skin and fabric, with a cool color temperature, high shadow intensity, and dramatic highlights glistening on his wet face. His eyes are wide with sudden shock and bewilderment, his rage momentarily replaced by confusion, reflecting Shock 90 and Bewilderment 80. His gaze is directed towards Ara, implying she is just outside the tight frame. In the foreground, rain streaks are visible; in the midground are Do-jin's eyes; and the background consists of blurred rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "98e2c1de-09b7-4a1b-a9f1-36529820fdbd",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_008.png"
+    ]
+  },
+  {
+    "cut_number": 9,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman's right hand, glistening wet, roughly yanks the soaked dark blue silk tie of a Korean man, pulling his face intensely close to hers. The Korean woman, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, and long hair completely wet and plastered to her face, wears a deep red, floor-length silk evening gown, heavily saturated with rainwater and dark red wine stains, clinging tightly to her disheveled and possibly torn form. Her expression is a mix of frantic desperation and defiant anger, her eyes locked on his. The Korean man, with a strong jawline, sharp, intense eyes, prominent nose, thin lips, wears a meticulously tailored, dark charcoal grey business suit, crisp white dress shirt, and dark blue silk tie, all completely soaked from the heavy rain and clinging to his body, his tie disheveled and askew from her grip. His face shows intense frustration and bewilderment, his bloodshot eyes glaring back at her. The scene is lit by the dark night and heavy, continuous downpour, with key light from bright hotel entrance lights and ambient streetlights creating harsh reflections on their wet skin, clothing, and the glistening rain, emphasizing dramatic highlights with a cool color temperature and high shadow intensity. CU, foreground shows Ara's wet hand and Do-jin's disheveled tie in sharp focus, midground reveals their chests tightly pressed together, slightly less in focus, background is a blurred, shimmering curtain of heavy rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "dd574731-0727-40bc-b51d-e2d5ad938d36",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_009.png"
+    ]
+  },
+  {
+    "cut_number": 10,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, and thin lips, is shown in an extreme close-up (ECU) focusing on her eyes and mouth. She wears a deep red, floor-length silk evening gown, now heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is forming on the back of her head. Her intense eyes burn with 90% resolve and 70% cold amusement, fixed directly into the blurred eyes of a Korean man, Cha Do-jin, whose blurred face is inches from hers. Their breaths mingle in the heavy rain. Cha Do-jin, in the midground and out of focus, has a strong jawline and an intense, blurred expression. He wears a meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie, all completely soaked from the heavy rain and clinging to his body, with his tie disheveled and slightly askew. The scene is set on a dark night with a heavy, continuous downpour. Key light from ambient street and hotel lights creates harsh reflections on their wet skin and fabric. The cool color temperature, high shadow intensity, and dramatic highlights emphasize their glistening wet faces against the pouring rain in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "34c14d36-96ef-42c1-8486-40bf52832486",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_010.png"
+    ]
+  },
+  {
+    "cut_number": 11,
+    "scene_id": "S#2",
+    "prompt": "An ECU of a Korean man, Cha Do-jin, with a strong jawline, sharp, intense eyes, prominent nose, and thin lips, focusing tightly on his eyes and mouth. He is wearing a meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie, all completely soaked from the heavy rain and clinging to his body, with his tie disheveled and slightly askew. His jaw is clenched, and his eyes are narrowed in an expression of intense fury and determination as he stares directly into Ara's eyes. His right hand is tightly gripping Ara's left wrist. The scene is set on a dark night with a heavy, continuous downpour, illuminated by harsh reflections from car headlights and ambient street/hotel lights on wet surfaces. The lighting has a cool color temperature, high shadow intensity, and dramatic highlights on his wet skin and fabric, emphasizing the glistening rain on his face. In the midground, Ara's blurred face is visible, her deep red, floor-length silk evening gown visibly wine-stained and disheveled, clinging to her rain-soaked form, with her hair plastered to her face. A subtle red mark or bruise is forming on the back of her head, though blurred by the shallow depth of field. The background shows heavy pouring rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "030dd917-2d9b-4f8c-a44a-6df67638cf65",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_011.png"
+    ]
+  },
+  {
+    "cut_number": 12,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, her deep red, floor-length silk evening gown heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is forming on the back of her head. She wears a sleek, dark-colored smartwatch on her left wrist, clearly visible. The lighting is a continuation of heavy rain and dark night, with key light from car headlights and ambient street/hotel lights creating harsh reflections on her wet skin and fabric, emphasizing the glistening rain on her face, in a cool color temperature with high shadow intensity and dramatic highlights. CU shot, showing her face and upper shoulders. A cold, knowing smile plays on her lips, mixed with defiance, her head slightly up, eyes fixed on Do-jin's eyes. Foreground: Ara's face; Midground: Do-jin's blurred shoulder, his dark suit soaked and his tie disheveled; Background: wet car. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "026af3a1-e473-4681-9aee-bfe65792a6dd",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_012.png"
+    ]
+  },
+  {
+    "cut_number": 13,
+    "scene_id": "S#2",
+    "prompt": "ECU of a Korean man, Cha Do-jin, showing his strong jawline, sharp, intense eyes, prominent nose, and thin lips. He is wearing a meticulously tailored, dark charcoal grey business suit, a crisp white dress shirt, and a solid dark blue silk tie. His entire outfit is completely soaked from heavy rain, clinging to his body, and his tie is disheveled and slightly askew. A strong expression of alarm (80%) and confusion (70%) crosses his features, with his sharp, intense eyes widened in alarm and his thin lips slightly parted in confusion. His gaze is intensely focused directly on Ara, just out of frame. The scene is dark night with a heavy, continuous downpour. Key light from ambient street/hotel lights creates harsh reflections on his wet face and suit, with a cool color temperature and high shadow intensity, emphasizing dramatic highlights on his glistening wet skin and fabric. Glistening rain streaks are visible in the foreground, with his face in the midground, and the background is blurred, abstract rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "f4d46ea7-e915-47e6-ba4d-d21881693764",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_013.png"
+    ]
+  },
+  {
+    "cut_number": 14,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, capable of expressing both defiance and cold amusement, is seen in a CU shot, face and upper shoulders visible. She wears a deep red, floor-length silk evening gown, now even more saturated with rainwater and wine stains, clinging tightly to her form, visibly disheveled and potentially torn from a struggle. Her long hair is completely wet and plastered to her face and shoulders, with heavy rain dripping from her hair. A subtle red mark or bruise may be forming on the back of her head. She wears a sleek, dark-colored smart watch on her left wrist. Her facial expression shows chilling composure mixed with manipulation, as she gazes intensely into Do-jin's eyes. The lighting is a dark night with a heavy, continuous downpour, key light from ambient street/hotel lights creating harsh reflections and dramatic highlights on her wet skin and fabric, with a cool color temperature. In the midground, Cha Do-jin's blurred shoulder is visible. In the background, a wet luxury car is visible. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "376388bd-8ef3-440e-9bba-da196a7cfcdd",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_014.png"
+    ]
+  },
+  {
+    "cut_number": 15,
+    "scene_id": "S#2",
+    "prompt": "A Korean man, Cha Do-jin, is shown in an Extreme Close-Up (ECU) focusing on his eyes and mouth. He has a strong jawline, prominent nose, and thin lips. His sharp, intense eyes are wide with utter disbelief and dawning terror, his face pale and horrified, gaze directed towards Ara. He is wearing a meticulously tailored, dark charcoal grey business suit, a crisp white dress shirt, and a dark blue silk tie, all completely soaked from heavy rain and clinging to his body, with his tie disheveled and slightly askew. His face and hair are also completely wet. The scene is set during a dark night with a heavy, continuous downpour. Key light from car's headlights and ambient street/hotel lights creates harsh reflections on his glistening wet skin, with a cool color temperature, high shadow intensity, and dramatic highlights on his face. Foreground shows rain streaks, midground is Cha Do-jin's horrified face, and the background is blurred rain. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ff95325d-049a-4c00-b615-fab1568638f6",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_015.png"
+    ]
+  },
+  {
+    "cut_number": 16,
+    "scene_id": "S#2",
+    "prompt": "A Korean man, Cha Do-jin, with a strong jawline, sharp intense eyes, prominent nose, and thin lips, is captured in an Action shot, framed from the waist up. He wears a meticulously tailored, dark charcoal grey business suit, crisp white dress shirt, and dark blue silk tie, all completely soaked from heavy rain and clinging to his body. His tie is disheveled and slightly askew. In the foreground, his hand is actively pulling away from the wrist of a Korean woman, Ara, releasing her. Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, and thin lips, is in the midground, her body partially visible. She wears a deep red, floor-length silk evening gown, now even more saturated with rainwater and dark red wine stains, clinging tightly to her form. The dress is visibly disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is visible on the back of her head. She wears a sleek, dark-colored smart watch on her left wrist. The scene is set on a dark night with a heavy, continuous downpour. Key light from car headlights and ambient street/hotel lights creates harsh reflections on the wet car body and ground, with a cool color temperature and high shadow intensity. Dramatic highlights glisten on their wet skin and fabric. In the background, a large, imposing black luxury sedan is parked on the rain-swept road in front of a brightly lit luxury hotel entrance. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "d825589f-712f-4cdf-9b96-f3990aee6f9d",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_016.png"
+    ]
+  },
+  {
+    "cut_number": 17,
+    "scene_id": "S#2",
+    "prompt": "A CU of Korean woman Ara, her sharp bone structure, intense, slightly upturned eye shape, defined nose, and thin lips conveying a complex expression of 80% triumph, 60% weariness, and 90% manipulation. Her head is tilted slightly up, her gaze fixed intensely on Do-jin's eyes. She is wearing a deep red, floor-length silk evening gown, now even more saturated with rainwater and dark red wine stains, clinging tightly to her form, visibly disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. A subtle red mark or bruise is forming on the back of her head. She wears a sleek, dark-colored smart watch on her left wrist. The scene is dark night, with heavy, continuous downpour. Key light from car's headlights and ambient street/hotel lights creates harsh reflections on her glistening wet skin and fabric, with cool color temperature and high shadow intensity, emphasizing the glistening rain on her face. In the shallow depth of field, Ara's face is in the foreground, Do-jin's blurred shoulder, with his soaked dark business suit and disheveled tie, is in the midground, and a wet luxury car is visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "dbeb76a5-2912-4b13-910d-2d52b8225a4a",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_017.png"
+    ]
+  },
+  {
+    "cut_number": 18,
+    "scene_id": "S#2",
+    "prompt": "A Korean man, Cha Do-jin, with a strong jawline, sharp, intense bloodshot eyes, prominent nose, and thin lips, is captured in a close-up (CU) showing his face and upper shoulders. He wears a meticulously tailored, dark charcoal grey business suit, a crisp white dress shirt, and a solid dark blue silk tie, all completely soaked from heavy rain and clinging to his body, with his tie disheveled and slightly askew. His face is a mask of extreme incredulity (90%) and simmering rage (80%), struggling to comprehend Ara's audacity. His head is tilted slightly down, his intense gaze fixed directly on Ara's eyes. In the midground, Ara's blurred shoulder is visible, and in the background, a wet, black luxury car. The scene is lit by the dark night with a heavy, continuous downpour, using key light from ambient street and hotel lights, creating harsh reflections on his wet skin and suit, emphasizing the glistening rain on his face. The color temperature is cool, with high shadow intensity and dramatic highlights. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "1717b3e7-fcc5-4e70-8c98-f8e66caa479a",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_018.png"
+    ]
+  },
+  {
+    "cut_number": 19,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, is shown in a CU, focusing on her face and upper shoulders. She wears a deep red, floor-length silk evening gown, now heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders, and a subtle red mark or bruise is forming on the back of her head. A sleek, dark-colored smart watch is on her left wrist. Her expression is a mix of cold resolve (95%) and manipulation (90%), with a faint, cold smile playing on her thin lips. Her intense eyes, unwavering, are fixed directly on the eyes of a blurred Korean man (Cha Do-jin) in the midground. Her hands are not visible in the frame. The scene is dark night with heavy, continuous downpour. Key light from ambient street and hotel lights creates harsh reflections on her wet skin and fabric, with cool color temperature, high shadow intensity, and dramatic highlights on her glistening wet face. In the immediate background, heavy pouring rain creates a dramatic, blurred effect. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ce9c06cd-843d-4fe5-b95b-e9d927b2e8af",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_019.png"
+    ]
+  },
+  {
+    "cut_number": 20,
+    "scene_id": "S#2",
+    "prompt": "A group of Korean security guards, uniformly tall, muscular, and imposing with disciplined, upright postures, rush out of a grand, brightly lit luxury hotel entrance. Each wears a standard issue black security suit, crisp white dress shirt, and dark tie, all visibly wet and clinging from the heavy rain, equipped with earpieces. Their faces show stern, alert, focused, and vigilant expressions as they look intently, scanning the immediate area, moving with purpose. The scene is set on a dark night with a heavy, continuous downpour. Key light emanates from the bright hotel entrance lights and ambient streetlights, creating strong, shimmering reflections on the wet surfaces. The lighting has a cool color temperature, high contrast with deep shadows softened by the rain, and dramatic highlights on their wet suits and faces. The foreground features the hotel entrance, the midground captures the guards running, and the background shows a blurred street. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "b567186f-2bec-48d4-8982-48260a57efa5",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_020.png"
+    ]
+  },
+  {
+    "cut_number": 21,
+    "scene_id": "S#2",
+    "prompt": "A close-up (CU) of a Korean man, Cha Do-jin, with a strong jawline, sharp, intense eyes, prominent nose, and thin lips, his face expressing a calculating resolve (90%) mixed with a predatory glint (80%). His head is tilted slightly down, his intense eyes targeting Ara's ear/side of face. He is wearing a meticulously tailored, dark charcoal grey business suit, crisp white dress shirt, and solid dark blue silk tie, all completely soaked from heavy rain and clinging to his body. His tie is disheveled and slightly askew. His face is pressed close to the ear of a blurred Korean woman, Ara, in the midground, shielding her from blurred Korean men, 박영자 경호원들 (guards), in the background. Ara has sharp bone structure, intense, slightly upturned eyes, defined nose, and thin lips. A subtle red mark or bruise is forming on the back of her head. Her deep red, floor-length silk evening gown is heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, visibly disheveled and potentially torn. Her long hair is completely wet and plastered to her face and shoulders. She wears a sleek, dark-colored smart watch on her left wrist. The guards in the background are wearing standard issue black security suits, white dress shirts, and dark ties, all visibly wet and clinging. The scene is set on a dark night with a heavy, continuous downpour. Key light from car headlights and ambient street/hotel lights creates harsh reflections on wet surfaces and dramatic highlights on wet skin and fabric, emphasizing glistening rain on faces. Cool color temperature, high shadow intensity. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "66529792-965d-4786-b9c7-f7c3055b91fb",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_021.png"
+    ]
+  },
+  {
+    "cut_number": 22,
+    "scene_id": "S#2",
+    "prompt": "Korean man Cha Do-jin, with a strong jawline, sharp, intense eyes, prominent nose, and thin lips, tall, muscular build, and broad shoulders, with an expression of intense anger and forceful control, his gaze fixed on Ara, roughly shoves Korean woman Ara. Korean woman Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, and thin lips, average height, slender build, and narrow shoulders, with an expression of frantic desperation and shock, her eyes wide as she is pushed, is being shoved into the back seat of a luxury car. Cha Do-jin wears a meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie, all completely soaked from heavy rain and clinging to his body, with his tie disheveled and slightly askew. Ara wears a deep red, floor-length silk evening gown, heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, disheveled and potentially torn from the struggle. Her long hair is completely wet and plastered to her face and shoulders. A sleek, dark-colored smart watch is on her left wrist. A subtle red mark or bruise is forming on the back of her head. Cha Do-jin's hands are firmly on Ara, pushing her into the back seat; Ara's body is contorted as she is shoved, her arms slightly flailing. The scene is a dark night under a heavy, continuous downpour. Key light from the car's interior light and ambient street/hotel lights illuminates the scene, creating harsh, shimmering reflections on the wet car body and ground, and dramatic highlights on wet skin and fabric. Cool color temperature, high shadow intensity, with glistening rain emphasized. Action shot, framed waist up, capturing Cha Do-jin's arm and Ara's body in the foreground as she is shoved into the car's dark interior in the midground, with pouring rain visible in the background. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "ff490bd2-0b87-4b46-99ef-129f79d19353",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_022.png"
+    ]
+  },
+  {
+    "cut_number": 23,
+    "scene_id": "S#2",
+    "prompt": "A large, imposing black luxury sedan, its back tires spinning rapidly, kicking up a dramatic spray of water and rain as it accelerates away. Two Korean men, 박영자 경호원들 (Park Young-ja's guards), in standard issue black security suits, white dress shirts, and dark ties, all visibly wet and clinging from the heavy rain, are visible in the blurred midground, left behind by the accelerating car. The car's body is glistening wet, and the road is completely saturated with water, reflecting the bright hotel entrance lights and ambient streetlights. Dark night, heavy, continuous downpour. Key light from bright hotel entrance lights and ambient streetlights, creating strong, shimmering reflections on the wet road and car surfaces. Cool color temperature, high contrast with deep shadows softened by the rain. Dramatic highlights on the wet car and water spray. Action shot, low angle, focusing on the car's rear tires and the wet road. Shallow depth of field, with the foreground (wet road, car tires) and midground (speeding car) in focus, and the background (blurred hotel, blurred guards) out of focus. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "xiaoshazi.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "d0312b31-3dd6-4533-bba5-b00bb7ce2744",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_023.png"
+    ]
+  },
+  {
+    "cut_number": 24,
+    "scene_id": "S#2",
+    "prompt": "A Korean woman, Ara, with sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, is seen in an extreme close-up (ECU) focusing on her eyes and mouth, positioned in the back seat of a car. She is wearing a deep red, floor-length silk evening gown, now heavily saturated with rainwater and dark red wine stains, clinging tightly to her form, visibly disheveled and potentially torn from a struggle. Her long hair is completely wet and plastered to her face, and a subtle red mark or bruise is forming on the back of her head. She wears a sleek, dark-colored smartwatch on her left wrist. Her expression is predominantly defiant with an underlying hint of vulnerability, her eyes burning with a mix of defiance and a hint of fear, as she gazes directly at Do-jin. Her left hand is subtly resting on her smartwatch. The scene is lit by a dark night with heavy rain, key light from ambient street and hotel lights creating harsh reflections on her wet skin and fabric, with a cool color temperature, high shadow intensity, and dramatic highlights emphasizing the glistening rain on her face. Foreground features Ara's face, midground shows a blurred car interior, subtly revealing Cha Do-jin whose dark business suit is completely soaked and his tie disheveled, and background shows rain on the window. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "684c8727-efc6-460d-a3a4-75eee63fa16c",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_024.png"
+    ]
+  },
+  {
+    "cut_number": 25,
+    "scene_id": "S#2",
+    "prompt": "ECU of Korean man Cha Do-jin in the driver's seat of a luxury sedan, his strong jawline clenched with cold resolve, sharp, intense eyes that appear slightly bloodshot, fixed on the wet road ahead, but a dark resolve in their gaze, occasionally darting a quick, frustrated glance towards Ara (off-frame, implied in the car), his prominent nose and thin lips set in a frustrated yet determined line. He is wearing a meticulously tailored, dark charcoal grey business suit, white dress shirt, and a dark blue silk tie, all completely soaked from the heavy rain and clinging to his body, his tie disheveled and slightly askew. The dark night and heavy downpour outside create harsh reflections on the car's wet windows, with cool-toned ambient streetlights and hotel lights casting dramatic highlights on his glistening wet face and hair, emphasizing the high shadow intensity. Foreground: Do-jin's face. Midground: blurred car interior. Background: rain on the window. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "53aa2a45-5db1-4531-a594-9d56dfd93706",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_025.png"
+    ]
+  },
+  {
+    "cut_number": 26,
+    "scene_id": "S#2",
+    "prompt": "A tight CU two-shot of a Korean woman, Ara, and a Korean man, Cha Do-jin, their faces locked in a tense, silent battle. Ara has sharp bone structure, intense, slightly upturned eye shape, defined nose, thin lips, expressing defiance (80%) and calculation (70%). Her deep red, floor-length silk evening gown is heavily soaked with rainwater and stained with dark red wine, clinging tightly to her form, visibly disheveled and potentially torn. Her long hair is completely wet and plastered to her face, and a subtle red mark or bruise may be forming on the back of her head from the impact with the car window. Cha Do-jin has a strong jawline, sharp, intense eyes, prominent nose, thin lips, expressing calculation (85%) and controlled rage (75%). His meticulously tailored, dark charcoal grey business suit, white dress shirt, and dark blue silk tie are completely soaked from the heavy rain and clinging to his body; his tie is disheveled and slightly askew. Both look directly into each other's eyes. The lighting is a dark night with a heavy, continuous downpour, key light from ambient street/hotel lights creating harsh reflections on their wet skin and fabric, emphasizing glistening rain on their faces, with a cool color temperature and high shadow intensity. Behind them, a rain-streaked window with a blurred car interior. photorealistic, cinematic, 9:16 vertical, shallow depth of field.",
+    "lora": "LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors",
+    "review_status": "approved",
+    "status": "success",
+    "prompt_id": "2f0ad832-15c4-40c2-a6e3-9bbf29efa1d3",
+    "saved_to": [
+      "C:\\Users\\joyco\\OneDrive\\Desktop\\dana\\comfy-qwen\\output\\ep2\\cut_026.png"
+    ]
+  }
+]

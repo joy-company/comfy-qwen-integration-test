@@ -1,0 +1,62 @@
+{
+  "episode_id": "EP01",
+  "characters": {
+    "아라": {
+      "character_DNA": {
+        "face_taxonomy": "Delicate bone structure, sharp, slightly upturned eyes, small nose, thin lips often set in a sardonic or cold smile. No distinguishing marks.",
+        "body_proportions": "Slender build, average height, often seen with a slight, defiant slump or staggering posture.",
+        "persona_markers": "Core deficiency: Terminal pancreatic cancer, facing imminent death. Habitual expression set: Maniacal laughter, cold, challenging smiles, defiant glare, expressions of pain quickly masked by resolve."
+      },
+      "default_wardrobe": "A floor-length, sleeveless formal gown made of delicate silk chiffon in a pale champagne color, now completely drenched, clinging to her body, and heavily stained with large, dark red wine splotches across the bodice and skirt, appearing disheveled and ruined."
+    },
+    "차도진": {
+      "character_DNA": {
+        "face_taxonomy": "Strong jawline, intense, deep-set eyes that easily become bloodshot with anger, prominent nose, thin, often tightly-pressed lips. No distinguishing marks.",
+        "body_proportions": "Tall, athletic build, broad shoulders, commanding and aggressive posture, often leaning in or towering over others.",
+        "persona_markers": "Core deficiency: Deep-seated fear of losing his inheritance and succession, driven by ambition. Habitual expression set: Furious scowls, desperate pleas, calculating stares, moments of bewildered shock, gritting teeth."
+      },
+      "default_wardrobe": "A meticulously tailored, two-piece business suit in a dark charcoal grey, made of fine wool, worn over a crisp white cotton dress shirt and a deep burgundy silk tie. Black leather dress shoes."
+    },
+    "박영자": {
+      "character_DNA": {
+        "face_taxonomy": "Not described in script, but implied stern and powerful.",
+        "body_proportions": "Not described in script, but implied authoritative presence.",
+        "persona_markers": "Core deficiency: Greed/loss of 300 billion won. Habitual expression set: Not described, but implied anger/frustration through her bodyguards' actions."
+      },
+      "default_wardrobe": "Not described in script."
+    },
+    "경호원들": {
+      "character_DNA": {
+        "face_taxonomy": "Generic, stern expressions.",
+        "body_proportions": "Muscular, imposing builds, disciplined posture.",
+        "persona_markers": "Core deficiency: Failure to protect assets. Habitual expression set: Focused, determined, vigilant."
+      },
+      "default_wardrobe": "Standard issue black wool suits, crisp white cotton dress shirts, and plain black silk ties."
+    }
+  },
+  "scenes": {
+    "S#1": {
+      "location": "Road in front of a luxury hotel lobby, during a night with pouring, heavy rain.",
+      "lighting_environment": "Low visibility due to heavy rain and night. Key light from streetlights and hotel entrance, casting long, stark shadows. Cool color temperature (blue/grey tones) due to rain and night, high shadow intensity.",
+      "spatial_layout_916": "Vertical frame emphasizes Ara's staggering figure against the imposing hotel backdrop and the sudden, dramatic stop of the luxury sedan just inches from her knees, highlighting her vulnerability and the car's power.",
+      "character_wardrobe": {
+        "아라": "A floor-length, sleeveless formal gown made of delicate silk chiffon in a pale champagne color, now completely drenched, clinging to her body, and heavily stained with large, dark red wine splotches across the bodice and skirt, appearing disheveled and ruined. Her hair is plastered to her face and neck by the rain."
+      },
+      "persistent_artifacts": []
+    },
+    "S#2": {
+      "location": "Immediately in front of the luxury car, still on the road outside the hotel, with pouring, heavy rain.",
+      "lighting_environment": "Same as S#1, with a focus on the characters' faces in close-up. Key light from streetlights/car headlights, cool color temperature, high shadow intensity, emphasizing dramatic facial expressions.",
+      "spatial_layout_916": "Vertical frame emphasizes the close proximity and power dynamics between Ara and Dojin. Close-ups (CU) highlight their intertwined hands, their faces, and the tension in their expressions, with the car serving as a stark, imposing backdrop.",
+      "character_wardrobe": {
+        "아라": "A floor-length, sleeveless formal gown made of delicate silk chiffon in a pale champagne color, still completely drenched, clinging to her body, and heavily stained with large, dark red wine splotches across the bodice and skirt. Her hair is wet, disheveled, and plastered to her face and neck.",
+        "차도진": "A meticulously tailored, two-piece business suit in a dark charcoal grey, made of fine wool. The suit jacket and trousers are now visibly damp, with rain streaks. He wears a crisp white cotton dress shirt underneath, also damp, and a deep burgundy silk tie, which is soaked and slightly disheveled from Ara's pull. Black leather dress shoes, now wet.",
+        "경호원들": "Identical standard issue black wool suits, crisp white cotton dress shirts, and plain black silk ties. All are now getting visibly wet from the pouring rain."
+      },
+      "persistent_artifacts": [
+        "아라: Her pale champagne silk chiffon gown remains drenched and wine-stained. Her hair is still wet and disheveled. A faint red mark or bruise might be forming on the back of her head where it hit the car window.",
+        "차도진: His charcoal grey suit, white shirt, and burgundy tie are now thoroughly drenched and clinging slightly to his body."
+      ]
+    }
+  }
+}

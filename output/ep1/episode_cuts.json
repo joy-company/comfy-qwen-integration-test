@@ -1,0 +1,765 @@
+[
+  {
+    "cut_number": 1,
+    "scene_id": "S#1",
+    "type": "Action",
+    "duration_sec": 2.5,
+    "action": "Heavy rain pours down, streetlights reflecting on the wet asphalt in front of a luxury hotel.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Rain in foreground, streetlights and hotel entrance in midground, dark sky in background"
+  },
+  {
+    "cut_number": 2,
+    "scene_id": "S#1",
+    "type": "Action",
+    "duration_sec": 2.5,
+    "action": "Ara, drenched and wine-stained in her ruined champagne gown, stumbles out of the hotel entrance, her hair plastered to her face.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slight downward",
+      "target": "the wet ground"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "pain 60, defiance 40",
+    "depth_stacking": "Ara in foreground, hotel entrance in midground, pouring rain in background"
+  },
+  {
+    "cut_number": 3,
+    "scene_id": "S#1",
+    "type": "CU",
+    "duration_sec": 2,
+    "action": "Ara's face, wet hair clinging to her skin, a mix of defiance and disorientation in her sharp, slightly upturned eyes.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "forward"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "defiance 70, pain 30",
+    "depth_stacking": "Ara's face in foreground, blurred rain in background"
+  },
+  {
+    "cut_number": 4,
+    "scene_id": "S#1",
+    "type": "Action",
+    "duration_sec": 1.5,
+    "action": "A massive black luxury sedan screeches to a halt, tires smoking, just 1cm from Ara's knees. (SFX: 끼이이익-!!)",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Car bumper in foreground, Ara's knees in midground, blurred rain in background"
+  },
+  {
+    "cut_number": 5,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "The car's rear door is violently flung open. 차도진 steps out into the pouring rain, his tailored suit already damp.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "차도진 in foreground, car door in midground, heavy rain in background"
+  },
+  {
+    "cut_number": 6,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "차도진's face, rain streaking down his strong jawline. His deep-set eyes are bloodshot and filled with furious scowls.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "furious scowl 90, anger 100",
+    "depth_stacking": "차도진's face in foreground, blurred rain in background"
+  },
+  {
+    "cut_number": 7,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "차도진 lunges, grabbing 아라's wrist and roughly shoving her against the car's body.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "downward",
+      "target": "아라's wrist"
+    },
+    "hand_object_binding": "차도진's right hand gripping 아라's left wrist",
+    "facial_gradient": "aggression 90",
+    "depth_stacking": "차도진 and 아라 in foreground, car in midground, rain in background"
+  },
+  {
+    "cut_number": 8,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 1,
+    "action": "아라's head snaps back, hitting the car window with a dull, sickening thud. A faint red mark begins to form.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "backward",
+      "target": "null"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "pain 80, shock 60",
+    "depth_stacking": "아라's head in foreground, car window in background"
+  },
+  {
+    "cut_number": 9,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "차도진, leaning in close to 아라, his voice low and chilling, rain dripping from his hair.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "강아라. 우리 태성 그룹으로 들어왔어야 할 합병 담보금 3,000억. 네가 중간에서 훔치고 무사할 줄 알았어? 당장 내놔! 그 돈 없으면 내 후계자 승계도 올스톱이야!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly downward",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": "차도진's right hand still gripping 아라's left wrist",
+    "facial_gradient": "furious scowl 100, calculating stare 80",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in midground"
+  },
+  {
+    "cut_number": 10,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "아라's face, wet hair framing her defiant glare. A flicker of pain from the impact is quickly masked by resolve.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "defiant glare 90, resolve 80",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 11,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "아라, a maniacal, cold laugh bubbling up from her, rain mixing with her tears. She speaks through her wet hair.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "무사할 생각 없어. 어차피 나, 췌장암 말기라 한 달 뒤면 죽거든."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slightly upward",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "maniacal laughter 90, cold smile 80, defiance 100",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 12,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 1.5,
+    "action": "차도진's eyes, wide with bewildered shock, pupils dilating as the words sink in. His furious scowl falters for a moment.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "bewildered shock 100",
+    "depth_stacking": "차도진's eyes in extreme foreground, blurred rain in background"
+  },
+  {
+    "cut_number": 13,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "아라, with a sudden surge of strength, grabs 차도진's soaked burgundy tie and yanks him forward, pulling him to her eye level.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's tie"
+    },
+    "hand_object_binding": "아라's right hand gripping 차도진's tie",
+    "facial_gradient": "resolve 90",
+    "depth_stacking": "아라's hand and 차도진's tie in foreground, both characters' faces in midground"
+  },
+  {
+    "cut_number": 14,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 2.5,
+    "action": "아라 and 차도진's faces, inches apart. Their rain-mixed, ragged breaths are almost touching, creating a tense, intimate space.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": "아라's right hand still gripping 차도진's tie",
+    "facial_gradient": "아라: cold smile 90, defiance 80; 차도진: furious scowl 80, calculating stare 70",
+    "depth_stacking": "Both faces in extreme foreground, blurred rain in background"
+  },
+  {
+    "cut_number": 15,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "아라, her eyes locked onto 차도진's, a chillingly calm expression on her face as she speaks.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "그 돈, 내 하드월렛에 안전하게 모셔놨어. 비번은 내 머릿속에만 있고, 내가 원하면 지금 당장이라도 네 계좌로 쏴줄 순 있지."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": "아라's right hand still gripping 차도진's tie",
+    "facial_gradient": "cold smile 90, challenging 80",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 16,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "차도진's face, his lips pressed into a thin line, gritting his teeth. His intense eyes narrow, a calculating stare replacing his initial shock.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "gritting teeth 90, calculating stare 100",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 17,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "차도진, his voice a low growl, his grip on 아라's wrist tightening, almost twisting it.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "그래? 그럼 당장 비번 풀고 이체해! 지하실에 묶어놓고 손가락만 갖다 대게 해줄까?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly downward",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": "차도진's right hand tightly gripping 아라's left wrist",
+    "facial_gradient": "furious scowl 100, aggression 90",
+    "depth_stacking": "차도진's face and hands in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 18,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "아라's face, a fleeting wince of pain from her wrist, quickly replaced by a cold, sardonic smile.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "pain 30 (masked), cold smile 90, sardonic 80",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 19,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "아라, her cold smile widening slightly, delivering her next revelation with defiant eyes.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "근데 어쩌나? 내 스마트워치 심박수랑 하드월렛을 연동시켜서 '데드맨 스위치'를 켜뒀거든."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 100, challenging 90",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 20,
+    "scene_id": "S#2",
+    "type": "Insert",
+    "duration_sec": 2,
+    "action": "A close-up on 아라's left wrist, showing a sleek smartwatch displaying a fluctuating heart rate.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": "Smartwatch on 아라's left wrist",
+    "facial_gradient": null,
+    "depth_stacking": "Smartwatch in foreground, blurred wet skin in background"
+  },
+  {
+    "cut_number": 21,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 1.5,
+    "action": "차도진's face, his aggressive posture freezing. His eyes widen again, a flicker of bewildered shock returning.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "bewildered shock 90",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 22,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2,
+    "action": "차도진, his voice a hesitant whisper, his eyes darting between 아라's face and her wrist.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "뭐? 데드맨 스위치?"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly downward",
+      "target": "아라's wrist"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "bewildered shock 100",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 23,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2,
+    "action": "아라's face, a triumphant, sardonic smile playing on her thin lips, her eyes gleaming with defiance.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "sardonic smile 100, defiance 90",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 24,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 3,
+    "action": "아라, her voice calm and steady despite the rain, explaining the deadly mechanism.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "응. 나한테서 억지로 비번 뜯어내겠다고 고문하거나 스트레스 줘서 내 심박수가 150을 넘기면? 혹은 내가 홧병으로 일찍 죽어서 심장이 멎으면? 그 즉시 3,000억은 허공으로 영구 삭제돼."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 90, challenging 80",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 25,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2,
+    "action": "차도진's face, turning utterly pale, his eyes wide with horror and desperation. His jaw hangs slightly open.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "desperate plea 90, bewildered shock 100",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 26,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "차도진, his hand reflexively releasing 아라's wrist, his voice laced with disbelief and fury.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "너... 미쳤어?! 내 합병 자금에 시한폭탄을 달아놔?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly upward",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": "차도진's hand releasing 아라's wrist",
+    "facial_gradient": "furious scowl 100, desperate plea 80",
+    "depth_stacking": "차도진's face and hands in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 27,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2,
+    "action": "아라's face, a triumphant, almost maniacal smile spreading across her lips, her eyes gleaming.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "maniacal laughter 90, cold smile 100",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 28,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 3,
+    "action": "아라, her expression unwavering, laying out her terms with chilling composure.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "한 달. 내가 죽기 전까지 그 한 달 동안 날 털끝 하나 안 다치게, 스트레스 1도 없이 상전처럼 모셔. 내가 편안하게 돈 펑펑 쓰면서 남은 삶 즐기다가, 눈 감기 직전에 내 손으로 직접 네 계좌로 남은 돈 예쁘게 이체해 주고 갈 테니까."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 90, defiant glare 100",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 29,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "차도진's face, utterly dumbfounded, his jaw slightly agape, rain dripping from his hair. He looks bewildered.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "bewildered shock 100",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 30,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 2.5,
+    "action": "차도진, his voice incredulous, his eyes wide with disbelief.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "너 지금 나랑 인질극 하자는 거야? 내가 네 수발이라도 들라고?!"
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly upward",
+      "target": "아라's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "furious scowl 90, desperate plea 70",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 31,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "아라's face, a slight, defiant tilt of her head, her eyes challenging 차도진.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "slight upward",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 90, challenging 100",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 32,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 3,
+    "action": "아라, her voice firm, delivering the ultimate choice to 차도진.",
+    "dialogue": {
+      "speaker": "아라",
+      "line": "아니, 3,000억짜리 생명 보험. 억지로 뺏으려 해봤자 심박수 오르면 돈은 타버려. 선택해. 날 건드려서 돈을 태울지, 완벽한 개가 돼서 살려내고 상속받을지."
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 90, defiant glare 100",
+    "depth_stacking": "아라's face in foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 33,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 2.5,
+    "action": "차도진's face, conflicted. His eyes dart between 아라 and the hotel entrance, his jaw clenching, gritting his teeth in frustration.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's eyes then hotel entrance"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "gritting teeth 100, calculating stare 90, furious scowl 80",
+    "depth_stacking": "차도진's face in foreground, blurred 아라 in background"
+  },
+  {
+    "cut_number": 34,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "Three 경호원들 in black suits burst out of the hotel entrance, scanning the area, their faces stern.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "경호원들",
+      "tilt": "straight",
+      "target": "아라"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "focused 80, determined 70",
+    "depth_stacking": "경호원들 in midground, hotel entrance in background, rain in foreground"
+  },
+  {
+    "cut_number": 35,
+    "scene_id": "S#2",
+    "type": "CU",
+    "duration_sec": 1.5,
+    "action": "차도진's eyes, a sudden, decisive shift from frustration to a cold, calculating resolve as he spots the 경호원들.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "경호원들"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "calculating stare 100",
+    "depth_stacking": "차도진's eyes in extreme foreground, blurred rain in background"
+  },
+  {
+    "cut_number": 36,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "차도진 swiftly pulls 아라 behind him, shielding her body with his own, his face now inches from her ear.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "slightly downward",
+      "target": "아라's ear"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "resolve 90",
+    "depth_stacking": "차도진 in foreground, 아라 partially obscured behind him, 경호원들 in background"
+  },
+  {
+    "cut_number": 37,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 2,
+    "action": "차도진's face, pressed close to 아라's ear, his lips barely moving as he whispers his chilling demand.",
+    "dialogue": {
+      "speaker": "차도진",
+      "line": "좋아. 3,000억 상속받을 때까지, 내 허락 없인 1초도 먼저 죽지 마."
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "straight",
+      "target": "아라's ear"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "calculating stare 100, intense 90",
+    "depth_stacking": "차도진's face in extreme foreground, blurred 아라's ear in background"
+  },
+  {
+    "cut_number": 38,
+    "scene_id": "S#2",
+    "type": "Reaction",
+    "duration_sec": 1.5,
+    "action": "아라's face, a flicker of surprise in her eyes, quickly replaced by a cold, defiant smile as she looks up at 차도진.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "upward",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "cold smile 90, defiant glare 100",
+    "depth_stacking": "아라's face in extreme foreground, blurred 차도진 in background"
+  },
+  {
+    "cut_number": 39,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2,
+    "action": "차도진 roughly shoves 아라 into the back seat of his luxury car.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "차도진",
+      "tilt": "downward",
+      "target": "아라"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "aggression 80",
+    "depth_stacking": "차도진 and 아라 in foreground, car interior in background"
+  },
+  {
+    "cut_number": 40,
+    "scene_id": "S#2",
+    "type": "Action",
+    "duration_sec": 2.5,
+    "action": "The luxury car roars to life, tires splashing through puddles, and speeds away into the heavy rain, just as the 경호원들 reach the spot.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": null,
+    "hand_object_binding": null,
+    "facial_gradient": null,
+    "depth_stacking": "Car in foreground, 경호원들 in midground, blurred rain in background"
+  },
+  {
+    "cut_number": 41,
+    "scene_id": "S#2",
+    "type": "ECU",
+    "duration_sec": 3,
+    "action": "Inside the speeding car, 아라 and 차도진, both drenched, stare intensely at each other, their faces reflecting the palpable tension. Blackout.",
+    "dialogue": {
+      "speaker": null,
+      "line": null
+    },
+    "head_and_gaze": {
+      "character": "아라",
+      "tilt": "straight",
+      "target": "차도진's eyes"
+    },
+    "hand_object_binding": null,
+    "facial_gradient": "아라: cold smile 90, defiant glare 100; 차도진: furious scowl 90, calculating stare 100",
+    "depth_stacking": "아라's face in foreground, 차도진's face in midground, blurred rain-streaked window in background"
+  }
+]
