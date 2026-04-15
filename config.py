@@ -18,7 +18,7 @@ QWEN_MODEL = "qwen3:8b"
 
 # Gemini API
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.1-pro-preview"
 
 # Default workflow file
 DEFAULT_WORKFLOW_PATH = "flux_depth_lora_example.json"
