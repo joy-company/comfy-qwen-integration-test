@@ -29,3 +29,14 @@ MAX_POLL_ATTEMPTS = 300  # 10 minutes max wait
 
 # Episode pipeline
 MAX_REVIEW_RETRIES = 3  # Max Gemini prompt revisions before forcing approval
+
+# Character → LoRA mapping
+# Key: character name (Korean) as it appears in cut definitions
+# Value: (lora_filename, strength)
+CHARACTER_LORA = {
+    "도진": ("LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors", 1.2),
+    "차도진": ("LeThAiVN_Hanfu_SnowMan_LoRA_Flux_V1.safetensors", 1.2),
+    "아라": ("zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors", 0.9),
+    "강아라": ("zyd232_ChineseGirl_Flux1-Krea-dev_v1_2.safetensors", 0.9),
+}
+DEFAULT_LORA = ("xiaoshazi.safetensors", 1.5)

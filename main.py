@@ -166,8 +166,12 @@ def main():
             print(f"대본 파일을 찾을 수 없습니다: {script_path}")
             sys.exit(1)
         script_text = script_path.read_text(encoding="utf-8")
-        print(f"[에피소드 모드] 대본 로드: {script_path} ({len(script_text)} 글자)")
-        run_episode(script_text)
+        # Extract episode number from filename (e.g. episode2.txt → "2")
+        import re
+        ep_match = re.search(r"(\d+)", script_path.stem)
+        ep_num = ep_match.group(1) if ep_match else "0"
+        print(f"[에피소드 모드] 대본 로드: {script_path} (EP{ep_num}, {len(script_text)} 글자)")
+        run_episode(script_text, ep_num)
     elif args.prompt:
         run_single(args.prompt, args.workflow, args.lora)
     else:

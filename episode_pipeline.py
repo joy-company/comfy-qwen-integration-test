@@ -9,7 +9,7 @@ Flow:
    b. Qwen reviews prompt against bible
    c. If rejected → Gemini revises (up to MAX_REVIEW_RETRIES)
    d. If approved → queue to ComfyUI
-4. All images auto-saved to output/
+4. All images auto-saved to output/epX/
 """
 
 import json
@@ -22,7 +22,7 @@ import gemini_client
 from reviewer import PromptReviewer
 from comfyui_client import ComfyUIClient
 from workflow_converter import load_frontend_workflow, convert_to_api_format
-from config import DEFAULT_WORKFLOW_PATH, MAX_REVIEW_RETRIES
+from config import DEFAULT_WORKFLOW_PATH, MAX_REVIEW_RETRIES, CHARACTER_LORA, DEFAULT_LORA
 
 
 OUTPUT_DIR = Path(__file__).parent / "output"
@@ -36,6 +36,9 @@ class EpisodePipeline:
         self.bible: dict = {}
         self.cuts: list[dict] = []
         self.results: list[dict] = []
+        self.prompts: list[dict] = []  # stores all prompts per cut
+        self.episode_num: str = "0"
+        self.ep_dir: Path = OUTPUT_DIR
 
     @staticmethod
     def _fmt_elapsed(seconds: float) -> str:
@@ -46,10 +49,17 @@ class EpisodePipeline:
         secs = seconds % 60
         return f"{minutes}m {secs:.0f}s"
 
-    async def run(self, script: str) -> list[dict]:
+    def _ensure_ep_dir(self):
+        """Create episode-specific output folder."""
+        self.ep_dir = OUTPUT_DIR / f"ep{self.episode_num}"
+        self.ep_dir.mkdir(parents=True, exist_ok=True)
+
+    async def run(self, script: str, episode_num: str = "0") -> list[dict]:
         """Run the full episode pipeline."""
         loop = asyncio.get_event_loop()
         total_start = time.time()
+        self.episode_num = episode_num
+        self._ensure_ep_dir()
 
         # --- Phase 1: Generate Bible ---
         print("\n" + "=" * 60)
@@ -64,8 +74,7 @@ class EpisodePipeline:
         print(f"  ✓ 바이블 생성 완료: {len(self.bible.get('characters', {}))} 캐릭터, "
               f"{len(self.bible.get('scenes', {}))} 씬")
 
-        bible_path = OUTPUT_DIR / "episode_bible.json"
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        bible_path = self.ep_dir / "bible.json"
         bible_path.write_text(
             json.dumps(self.bible, ensure_ascii=False, indent=2), encoding="utf-8"
         )
@@ -84,7 +93,7 @@ class EpisodePipeline:
         t1 = time.time()
         print(f"  ✓ 총 {len(self.cuts)}개 컷 생성")
 
-        cuts_path = OUTPUT_DIR / "episode_cuts.json"
+        cuts_path = self.ep_dir / "cuts.json"
         cuts_path.write_text(
             json.dumps(self.cuts, ensure_ascii=False, indent=2), encoding="utf-8"
         )
@@ -104,6 +113,13 @@ class EpisodePipeline:
         self.results = await asyncio.gather(*tasks)
         t1 = time.time()
 
+        # --- Save prompts file ---
+        prompts_path = self.ep_dir / "prompts.json"
+        prompts_path.write_text(
+            json.dumps(self.prompts, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"\n  ✓ 프롬프트 저장: {prompts_path}")
+
         # --- Summary ---
         succeeded = sum(1 for r in self.results if r.get("status") == "success")
         failed = sum(1 for r in self.results if r.get("status") != "success")
@@ -113,10 +129,11 @@ class EpisodePipeline:
         print(f"[완료] 총 {len(self.results)}컷: {succeeded} 성공, {failed} 실패")
         print(f"  ⏱ Phase 3: {self._fmt_elapsed(t1 - t0)}")
         print(f"  ⏱ 전체 소요: {self._fmt_elapsed(total_elapsed)}")
+        print(f"  📁 출력 폴더: {self.ep_dir}")
         print("=" * 60)
 
         # Save full results
-        results_path = OUTPUT_DIR / "episode_results.json"
+        results_path = self.ep_dir / "results.json"
         results_path.write_text(
             json.dumps(self.results, ensure_ascii=False, indent=2), encoding="utf-8"
         )
@@ -166,11 +183,27 @@ class EpisodePipeline:
         if not approved:
             print(f"{prefix} ⚠ 최대 리뷰 횟수 도달 — 현재 프롬프트로 진행")
 
-        # Step 3: Queue image generation
+        # Show the final prompt in terminal
+        print(f"{prefix} 📝 프롬프트: {image_prompt[:150]}...")
+
+        # Step 3: Pick LoRA based on character in cut
+        lora_name, lora_strength = self._pick_lora(cut)
+        print(f"{prefix} LoRA: {lora_name} (강도 {lora_strength})")
+
+        # Save prompt record
+        self.prompts.append({
+            "cut_number": cut_num,
+            "scene_id": scene_id,
+            "lora": lora_name,
+            "approved": approved,
+            "prompt": image_prompt,
+        })
+
+        # Step 4: Queue image generation
         print(f"{prefix} ComfyUI 큐 등록 중...")
         result = await loop.run_in_executor(
             self.executor,
-            self._queue_image, image_prompt, cut_num,
+            self._queue_image, image_prompt, cut_num, lora_name, lora_strength,
         )
 
         if result.get("status") == "success":
@@ -183,12 +216,33 @@ class EpisodePipeline:
             "cut_number": cut_num,
             "scene_id": scene_id,
             "prompt": image_prompt,
+            "lora": lora_name,
             "review_status": "approved" if approved else "forced",
             **result,
         }
 
-    def _queue_image(self, prompt: str, cut_number: int) -> dict:
-        """Load workflow, set prompt, execute, save image."""
+    @staticmethod
+    def _pick_lora(cut: dict) -> tuple[str, float]:
+        """Pick the LoRA file based on the main character in the cut."""
+        # Check character fields in the cut definition
+        head_gaze = cut.get("head_and_gaze") or {}
+        dialogue = cut.get("dialogue") or {}
+        fields_to_check = [
+            head_gaze.get("character", ""),
+            dialogue.get("speaker", "") if isinstance(dialogue, dict) else "",
+            cut.get("action", ""),
+        ]
+        text = " ".join(str(f) for f in fields_to_check)
+
+        for char_name, (lora_file, strength) in CHARACTER_LORA.items():
+            if char_name in text:
+                return lora_file, strength
+
+        return DEFAULT_LORA
+
+    def _queue_image(self, prompt: str, cut_number: int,
+                     lora_name: str = None, lora_strength: float = 1.0) -> dict:
+        """Load workflow, set prompt, set LoRA, execute, save image."""
         # Load a fresh workflow for each cut
         wf_path = Path(DEFAULT_WORKFLOW_PATH)
         if not wf_path.exists():
@@ -217,6 +271,14 @@ class EpisodePipeline:
                     "extra fingers, watermark, text, cartoon, anime"
                 )
 
+        # Set LoRA
+        lora_info = wf_info.get("lora")
+        if lora_info and lora_name:
+            node_id = lora_info["node_id"]
+            if node_id in api_wf:
+                api_wf[node_id]["inputs"]["lora_name"] = lora_name
+                api_wf[node_id]["inputs"]["strength_model"] = lora_strength
+
         # Submit
         try:
             prompt_id = self.comfyui.queue_prompt(api_wf)
@@ -229,9 +291,8 @@ class EpisodePipeline:
         except TimeoutError as e:
             return {"status": "error", "error": str(e)}
 
-        # Save images
+        # Save images to episode folder
         images = self.comfyui.get_output_images(history)
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         saved_paths = []
         for img_info in images:
             img_data = self.comfyui.get_image(
@@ -239,9 +300,8 @@ class EpisodePipeline:
                 img_info.get("subfolder", ""),
                 img_info.get("type", "output"),
             )
-            # Name by cut number for easy identification
-            out_name = f"cut_{cut_number:03d}_{img_info['filename']}"
-            out_path = OUTPUT_DIR / out_name
+            out_name = f"cut_{cut_number:03d}.png"
+            out_path = self.ep_dir / out_name
             out_path.write_bytes(img_data)
             saved_paths.append(str(out_path))
 
@@ -252,7 +312,7 @@ class EpisodePipeline:
         }
 
 
-def run_episode(script: str) -> list[dict]:
+def run_episode(script: str, episode_num: str = "0") -> list[dict]:
     """Entry point — run the full episode pipeline synchronously."""
     pipeline = EpisodePipeline(max_concurrent=2)
-    return asyncio.run(pipeline.run(script))
+    return asyncio.run(pipeline.run(script, episode_num))

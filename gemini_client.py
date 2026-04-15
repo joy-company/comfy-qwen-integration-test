@@ -70,8 +70,10 @@ Follow the 3-7-21 framework:
 - 21~90s: Spiral Escalation + Cliffhanger
 
 Rules:
+- TARGET 25-27 CUTS TOTAL per episode. Do NOT exceed 30 cuts.
+- Combine consecutive reaction shots into the prior cut when possible.
+- Only create a separate Reaction Shot cut for the most emotionally impactful moments.
 - 70%+ of cuts must be Close-Up (CU) or Extreme Close-Up (ECU).
-- Every spoken line MUST produce a Reaction Shot cut for the listener.
 - Preserve 100% of original dialogue — never edit, omit, or add lines.
 - Use Insert shots for props with information value (documents, phones, etc.).
 - Cut duration: mostly 2-3 seconds, 1s for emotional peaks.
@@ -110,6 +112,7 @@ Given a cut definition and the episode bible, write a single detailed image gene
 prompt in English that will produce the exact frame described.
 
 Rules:
+- ALL human characters are Korean. Always specify "Korean man", "Korean woman", etc.
 - Start with the subject and their exact appearance from character_DNA.
 - Include EXACT wardrobe from the scene's character_wardrobe field.
 - Include any persistent_artifacts (wine stains, slap marks, tears, etc.).
