@@ -1,0 +1,156 @@
+{
+  "validation_issues": [],
+  "cuts": [
+    {
+      "cut_number": 1,
+      "scene_id": "S#1",
+      "reference": "[인서트] 화려한 파티장. 드레스를 입은 루다가 강태주의 팔짱을 끼고 우아하게 건배한다.",
+      "description": "Luda and Tae-ju clink champagne glasses in a luxurious, high-society toast.",
+      "technical_specs": {
+        "lens": "50mm Prime",
+        "aperture": "f/2.0",
+        "iso": "400",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Side",
+        "style": "High Key",
+        "color": "warm amber"
+      },
+      "composition": {
+        "shot_type": "MS",
+        "focal_point": "Clinking glasses",
+        "vertical_alignment": "Upper Third",
+        "camera_movement": "Pan",
+        "movement_speed": "slow",
+        "movement_motivation": "Following the arc of the toast"
+      },
+      "emotional_intent": "Establish elegance and social dominance",
+      "pacing_note": "Initial beat, establishing the rhythm of the montage",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 2,
+      "scene_id": "S#1",
+      "reference": "[인서트] 법원 앞. 정장을 입은 루다가 서지한의 넥타이를 세심하게 매준다.",
+      "description": "Luda's hands meticulously adjusting Seo Ji-han's silk tie in front of the court.",
+      "technical_specs": {
+        "lens": "85mm Prime",
+        "aperture": "f/2.0",
+        "iso": "200",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Side",
+        "style": "High Key",
+        "color": "neutral clean"
+      },
+      "composition": {
+        "shot_type": "MCU",
+        "focal_point": "The tie knot",
+        "vertical_alignment": "Center",
+        "camera_movement": "Static",
+        "movement_speed": "N/A",
+        "movement_motivation": "Emphasizing the precision of the movement"
+      },
+      "emotional_intent": "Demonstrate meticulousness and subtle control",
+      "pacing_note": "Steady beat to maintain the montage flow",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 3,
+      "scene_id": "S#1",
+      "reference": "[인서트] 방송국 대기실. 마스크를 쓴 루다가 강은우의 이마에 맺힌 땀을 닦아준다.",
+      "description": "Luda gently wiping sweat from Eunwoo's forehead in the brightly lit dressing room.",
+      "technical_specs": {
+        "lens": "35mm Prime",
+        "aperture": "f/2.8",
+        "iso": "800",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Front",
+        "style": "High Key",
+        "color": "bright white"
+      },
+      "composition": {
+        "shot_type": "CU",
+        "focal_point": "Luda's eyes and hand",
+        "vertical_alignment": "Upper Third",
+        "camera_movement": "Push-in",
+        "movement_speed": "slow",
+        "movement_motivation": "Increasing the sense of intimacy and care"
+      },
+      "emotional_intent": "Introduce mystery and nurturing persona",
+      "pacing_note": "Slightly more intimate, slowing the rhythm momentarily before the climax",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 4,
+      "scene_id": "S#1",
+      "reference": "[인서트] 어두운 골목. 가죽 재킷을 입은 루다가 블랙의 등 뒤에서 차갑게 총을 장	장전한다.",
+      "description": "Luda's cold fingers chambering a round into a handgun in a dark alley.",
+      "technical_specs": {
+        "lens": "85mm Prime",
+        "aperture": "f/2.8",
+        "iso": "3200",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Back",
+        "style": "Low Key",
+        "color": "cold blue"
+      },
+      "composition": {
+        "shot_type": "ECU",
+        "focal_point": "The gun slide and bullet",
+        "vertical_alignment": "Center",
+        "camera_movement": "Handheld",
+        "movement_speed": "snap",
+        "movement_motivation": "Instilling sudden tension and danger"
+      },
+      "emotional_intent": "Reveal the lethal, true nature of the operative",
+      "pacing_note": "High-intensity climax; sharp, sudden cut",
+      "estimated_duration": "3.0s"
+    },
+    {
+      "cut_number": 5,
+      "scene_id": "S#1",
+      "reference": "루다 (NA) 국가를 위해 나는 4번 결혼했고, 4번 이혼했다. 임무는 완벽했고, 위장은 철저했다. 그리고 오늘.",
+      "description": "A rapid-fire montage of the previous identities flashing in sync with the narration, concluding on a heavy, ominous beat.",
+      "technical_specs": {
+        "lens": "N/A",
+        "aperture": "N/A",
+        "iso": "N/A",
+        "depth_of_field": "N/A"
+      },
+      "lighting": {
+        "direction": "N/A",
+        "style": "N/A",
+        "color": "N/A"
+      },
+      "composition": {
+        "shot_type": "N/A",
+        "focal_point": "The rapid visual transitions",
+        "vertical_alignment": "N/A",
+        "camera_movement": "N/A",
+        "movement_speed": "snap",
+        "movement_motivation": "To match the concluding weight of the narration"
+      },
+      "emotional_intent": "Ominous revelation of the stakes",
+      "pacing_note": "Rapid rhythmic montage concluding with a lingering, heavy pause",
+      "estimated_duration": "4.0s"
+    }
+  ],
+  "production_notes": {
+    "pacing_assessment": "The montage follows a classic tension arc: starting with social elegance, moving through professional precision and intimacy, and culminating in sudden, lethal violence. The rhythm is designed to accelerate toward the final narration.",
+    "risk_areas": [
+      "Shot 4: High ISO (3200) in a low-key setting may introduce digital noise which could clash with the 'clean' professional look of previous shots.",
+      "Shot 4: The 'snap' handheld movement in an ECU requires extremely high shutter speed to prevent motion blur on the mechanical action of the gun."
+    ],
+    "recommendations": [
+      "Use a high-speed shutter for the final insert to ensure the bullet/slide detail remains sharp during the handheld movement.",
+      "Ensure color grading maintains a clear distinction between the 'warm amber' of the party and the 'cold blue' of the alley to visually signal the persona shifts."
+    ]
+  }
+}

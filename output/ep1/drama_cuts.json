@@ -1,0 +1,162 @@
+{
+  "validation_issues": [
+    {
+      "agent": "Cinematography Agent",
+      "issue": "Shot 3 specifies 'Deep' depth of field for a 35mm lens at f/2.8, which is optically inconsistent with the wide aperture.",
+      "correction": "Adjusted depth of field to 'Medium' to maintain optical plausibility."
+    }
+  ],
+  "cuts": [
+    {
+      "cut_number": 1,
+      "scene_id": "S#1",
+      "reference": "[인서트] 화려한 파티장. 드레스를 입은 루다가 강태주의 팔짱을 끼고 우아하게 건배한다.",
+      "description": "Medium shot of Luda in an elegant dress clinking glasses with Tae-joo in a luxurious ballroom.",
+      "technical_specs": {
+        "lens": "50mm Prime",
+        "aperture": "f/2.8",
+        "iso": "400",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Side",
+        "style": "High Key",
+        "color": "warm amber"
+      },
+      "composition": {
+        "shot_type": "MS",
+        "focal_point": "The clinking champagne glasses",
+        "vertical_alignment": "Upper Third",
+        "camera_movement": "Pan",
+        "movement_speed": "medium",
+        "movement_motivation": "To follow the movement of the toast across the frame"
+      },
+      "emotional_intent": "Establish glamour and social dominance.",
+      "pacing_note": "Rapid, rhythmic cut to initiate the montage.",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 2,
+      "scene_id": "S#1",
+      "reference": "[인서트] 법원 앞. 정장을 입은 루다가 서지한의 넥타이를 세심하게 매준다.",
+      "description": "Close up of Luda's hands precisely adjusting Ji-han's necktie.",
+      "technical_specs": {
+        "lens": "85mm Prime",
+        "aperture": "f/2.0",
+        "iso": "800",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Side",
+        "style": "High Key",
+        "color": "clean neutral"
+      },
+      "composition": {
+        "shot_type": "CU",
+        "focal_point": "The knot of the necktie",
+        "vertical_alignment": "Center",
+        "camera_movement": "Static",
+        "movement_speed": "slow",
+        "movement_motivation": "To emphasize the precision and care of the movement"
+      },
+      "emotional_intent": "Convey professionalism and subtle influence.",
+      "pacing_note": "Short, sharp cut to maintain montage momentum.",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 3,
+      "scene_id": "S#1",
+      "reference": "[인서트] 방송국 대기실. 마스크를 쓴 루다가 강은우의 이마에 맺힌 땀을 닦아준다.",
+      "description": "Medium close up of Luda, wearing a mask, wiping sweat from Eun-woo's forehead.",
+      "technical_specs": {
+        "lens": "35mm Prime",
+        "aperture": "f/2.8",
+        "iso": "400",
+        "depth_of_field": "Medium"
+      },
+      "lighting": {
+        "direction": "Front",
+        "style": "High Key",
+        "color": "soft white"
+      },
+      "composition": {
+        "shot_type": "MCU",
+        "focal_point": "Eun-woo's forehead and the mask",
+        "vertical_alignment": "Upper Third",
+        "camera_movement": "Push-in",
+        "movement_speed": "slow",
+        "movement_motivation": "To increase the sense of intimacy and closeness"
+      },
+      "emotional_intent": "Show a nurturing, deceptive persona.",
+      "pacing_note": "Slightly longer duration to allow for the emotional shift.",
+      "estimated_duration": "2.0s"
+    },
+    {
+      "cut_number": 4,
+      "scene_id": "S#1",
+      "reference": "[인서트] 어두운 골목. 가죽 재킷을 입은 루다가 블랙의 등 뒤에서 차갑게 총을 장전한다.",
+      "description": "Extreme close up of a handgun being loaded in a dark alley.",
+      "technical_specs": {
+        "lens": "85mm Macro",
+        "aperture": "f/2.8",
+        "iso": "1600",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Back",
+        "style": "Low Key",
+        "color": "cool blue"
+      },
+      "composition": {
+        "shot_type": "ECU",
+        "focal_point": "The bullet entering the chamber",
+        "vertical_alignment": "Center",
+        "camera_movement": "Handheld",
+        "movement_speed": "snap",
+        "movement_motivation": "To introduce tension and instability"
+      },
+      "emotional_intent": "Reveal the lethal, predatory reality of the character.",
+      "pacing_note": "High-intensity, jarring cut to peak the tension.",
+      "estimated_duration": "3.0s"
+    },
+    {
+      "cut_number": 5,
+      "scene_id": "S#1",
+      "reference": "루다 (NA) 국가를 위해 나는 4번 결혼했고, 4번 이혼했다. 임무는 완벽했고, 위장은 철저했다. 그리고 오늘.",
+      "description": "Close up of Luda's face looking directly into the camera, breaking the montage.",
+      "technical_specs": {
+        "lens": "85mm Prime",
+        "aperture": "f/1.8",
+        "iso": "800",
+        "depth_of_field": "Shallow"
+      },
+      "lighting": {
+        "direction": "Side",
+        "style": "Low Key",
+        "color": "high contrast cinematic"
+      },
+      "composition": {
+        "shot_type": "CU",
+        "focal_point": "Iruda's eyes",
+        "vertical_alignment": "Upper Third",
+        "camera_movement": "Push-in",
+        "movement_strength": "slow",
+        "movement_motivation": "To force the viewer into a confrontation with her truth"
+      },
+      "emotional_intent": "Finality, fatalism, and direct confrontation.",
+      "pacing_note": "The 'Out' beat; a sustained, heavy shot that breaks the montage rhythm.",
+      "estimated_duration": "4.0s"
+    }
+  ],
+  "production_notes": {
+    "pacing_assessment": "The montage follows a classic 'acceleration-to-impact' structure, moving from social warmth to lethal coldness, concluding with a dramatic temporal pause.",
+    "risk_areas": [
+      "Shot 4 (ECU) requires extremely precise lighting and focus in a low-light environment to ensure the bullet/chamber is visible.",
+      "The transition from the fast-paced montage (Cuts 1-4) to the slow-moving final reveal (Cut 5) must be synchronized with a musical shift to avoid feeling disjointed."
+    ],
+    "recommendations": [
+      "Use a heavy, rhythmic orchestral score that builds in percussion during the montage and abruptly drops to a single, haunting note or silence for the final VO.",
+      "Ensure the 'sweat' on Eun-woo (Cut 3) is highly visible to maintain the 'physical exertion' requirement from the script analysis."
+    ]
+  }
+}

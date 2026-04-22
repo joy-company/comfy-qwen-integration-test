@@ -140,6 +140,197 @@ class EpisodePipeline:
 
         return self.results
 
+    async def run_with_drama_cuts(self, script: str, drama_cuts_path: str,
+                                  episode_num: str = "0") -> list[dict]:
+        """Run the pipeline using pre-analyzed drama cuts instead of Gemini cut division.
+
+        Flow:
+        1. Generate Episode Bible from script (Gemini)
+        2. Read drama cuts from JSON file (output of drama_pipeline.js)
+        3. For each cut: generate image prompt (Gemini + bible) → review (Qwen) → ComfyUI
+        """
+        loop = asyncio.get_event_loop()
+        total_start = time.time()
+        self.episode_num = episode_num
+        self._ensure_ep_dir()
+
+        # --- Phase 1: Generate Bible ---
+        print("\n" + "=" * 60)
+        print("[Phase 1] Gemini: 에피소드 바이블 생성 중...")
+        print("=" * 60)
+
+        t0 = time.time()
+        self.bible = await loop.run_in_executor(
+            self.executor, gemini_client.generate_bible, script
+        )
+        t1 = time.time()
+        print(f"  ✓ 바이블 생성 완료: {len(self.bible.get('characters', {}))} 캐릭터, "
+              f"{len(self.bible.get('scenes', {}))} 씬")
+
+        bible_path = self.ep_dir / "bible.json"
+        bible_path.write_text(
+            json.dumps(self.bible, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"  ✓ 바이블 저장: {bible_path}")
+        print(f"  ⏱ Phase 1 완료: {self._fmt_elapsed(t1 - t0)}")
+
+        # --- Phase 2: Load drama cuts (skip Gemini cut division) ---
+        print("\n" + "=" * 60)
+        print("[Phase 2] 드라마 파이프라인 컷 로드 중...")
+        print("=" * 60)
+
+        drama_data = json.loads(Path(drama_cuts_path).read_text(encoding="utf-8"))
+        drama_cuts = drama_data.get("cuts", [])
+        validation_issues = drama_data.get("validation_issues", [])
+
+        print(f"  ✓ {len(drama_cuts)}개 드라마 컷 로드됨 (from {drama_cuts_path})")
+        if validation_issues:
+            print(f"  ⚠ {len(validation_issues)}개 검증 이슈:")
+            for issue in validation_issues:
+                print(f"    - [{issue.get('agent', '?')}] {issue.get('issue', '')}")
+
+        # Save drama cuts to episode folder for reference
+        cuts_path = self.ep_dir / "cuts.json"
+        cuts_path.write_text(
+            json.dumps(drama_cuts, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+
+        # --- Phase 3: Generate, Review, Queue (async per cut) ---
+        print("\n" + "=" * 60)
+        print(f"[Phase 3] 컷별 프롬프트 생성 → 리뷰 → 이미지 생성 ({len(drama_cuts)}개)")
+        print("=" * 60)
+
+        self.cuts = drama_cuts  # for _process_drama_cut prefix
+        t0 = time.time()
+        tasks = [
+            self._process_drama_cut(loop, i, cut)
+            for i, cut in enumerate(drama_cuts)
+        ]
+        self.results = await asyncio.gather(*tasks)
+        t1 = time.time()
+
+        # --- Save prompts file ---
+        prompts_path = self.ep_dir / "prompts.json"
+        prompts_path.write_text(
+            json.dumps(self.prompts, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"\n  ✓ 프롬프트 저장: {prompts_path}")
+
+        # --- Summary ---
+        succeeded = sum(1 for r in self.results if r.get("status") == "success")
+        failed = sum(1 for r in self.results if r.get("status") != "success")
+        total_elapsed = time.time() - total_start
+
+        print("\n" + "=" * 60)
+        print(f"[완료] 총 {len(self.results)}컷: {succeeded} 성공, {failed} 실패")
+        print(f"  ⏱ Phase 3: {self._fmt_elapsed(t1 - t0)}")
+        print(f"  ⏱ 전체 소요: {self._fmt_elapsed(total_elapsed)}")
+        print(f"  📁 출력 폴더: {self.ep_dir}")
+        print("=" * 60)
+
+        # Save full results
+        results_path = self.ep_dir / "results.json"
+        results_path.write_text(
+            json.dumps(self.results, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+
+        return self.results
+
+    async def _process_drama_cut(self, loop, index: int, drama_cut: dict) -> dict:
+        """Process a single drama pipeline cut: generate prompt → review → queue."""
+        cut_num = drama_cut.get("cut_number", index + 1)
+        scene_id = drama_cut.get("scene_id", "?")
+        prefix = f"  [컷 {cut_num}/{len(self.cuts)}] ({scene_id})"
+
+        # Step 1: Generate image prompt from drama cut + bible
+        print(f"{prefix} 드라마 컷 기반 프롬프트 생성 중...")
+        image_prompt = await loop.run_in_executor(
+            self.executor,
+            gemini_client.generate_image_prompt_from_drama_cut,
+            drama_cut, self.bible,
+        )
+
+        # Step 2: Review loop (same as original pipeline)
+        approved = False
+        for attempt in range(1, MAX_REVIEW_RETRIES + 1):
+            print(f"{prefix} Qwen 리뷰 중... (시도 {attempt}/{MAX_REVIEW_RETRIES})")
+            review = await loop.run_in_executor(
+                self.executor,
+                self.reviewer.review,
+                image_prompt, drama_cut, self.bible,
+            )
+
+            if review.get("status") == "approved":
+                print(f"{prefix} ✓ 승인됨: {review.get('reason', '')[:80]}")
+                approved = True
+                break
+
+            feedback = review.get("reason", "") + " " + " ".join(review.get("issues", []))
+            print(f"{prefix} ✗ 거부: {feedback[:100]}")
+
+            image_prompt = await loop.run_in_executor(
+                self.executor,
+                gemini_client.revise_image_prompt,
+                image_prompt, drama_cut, self.bible, feedback,
+            )
+            print(f"{prefix} 프롬프트 수정 완료")
+
+        if not approved:
+            print(f"{prefix} ⚠ 최대 리뷰 횟수 도달 — 현재 프롬프트로 진행")
+
+        print(f"{prefix} 📝 프롬프트: {image_prompt[:150]}...")
+
+        # Step 3: Pick LoRA from drama cut description/reference
+        lora_name, lora_strength = self._pick_lora_from_drama_cut(drama_cut)
+        print(f"{prefix} LoRA: {lora_name} (강도 {lora_strength})")
+
+        # Save prompt record
+        self.prompts.append({
+            "cut_number": cut_num,
+            "scene_id": scene_id,
+            "lora": lora_name,
+            "approved": approved,
+            "prompt": image_prompt,
+        })
+
+        # Step 4: Queue image generation
+        print(f"{prefix} ComfyUI 큐 등록 중...")
+        result = await loop.run_in_executor(
+            self.executor,
+            self._queue_image, image_prompt, cut_num, lora_name, lora_strength,
+        )
+
+        if result.get("status") == "success":
+            saved = result.get("saved_to", [])
+            print(f"{prefix} ✓ 이미지 생성 완료: {saved}")
+        else:
+            print(f"{prefix} ✗ 이미지 생성 실패: {result.get('error', '?')}")
+
+        return {
+            "cut_number": cut_num,
+            "scene_id": scene_id,
+            "prompt": image_prompt,
+            "lora": lora_name,
+            "review_status": "approved" if approved else "forced",
+            **result,
+        }
+
+    @staticmethod
+    def _pick_lora_from_drama_cut(drama_cut: dict) -> tuple[str, float]:
+        """Pick LoRA from drama cut fields (description, reference, etc.)."""
+        fields = [
+            drama_cut.get("description", ""),
+            drama_cut.get("reference", ""),
+            drama_cut.get("emotional_intent", ""),
+        ]
+        text = " ".join(str(f) for f in fields)
+
+        for char_name, (lora_file, strength) in CHARACTER_LORA.items():
+            if char_name in text:
+                return lora_file, strength
+
+        return DEFAULT_LORA
+
     async def _process_cut(self, loop, index: int, cut: dict) -> dict:
         """Process a single cut: generate prompt → review → queue."""
         cut_num = cut.get("cut_number", index + 1)

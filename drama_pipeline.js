@@ -267,28 +267,50 @@ Do not output anything outside the YAML block. Do not add Markdown fences around
 </your_responsibilities>
 
 <output_instructions>
-Produce the final Cut Plan in the following structure:
+Output ONLY a valid JSON object with this exact structure — no markdown, no commentary, no fences:
 
-## VALIDATION REPORT
-- List any inconsistencies, impossibilities, or gaps found across the three analyses.
-- For each issue, state which agent produced it and suggest a correction.
+{
+  "validation_issues": [
+    {"agent": "string", "issue": "string", "correction": "string"}
+  ],
+  "cuts": [
+    {
+      "cut_number": 1,
+      "scene_id": "S#1",
+      "reference": "exact word-for-word quote from the original script that this cut depicts — copy verbatim, do not paraphrase",
+      "description": "what is shown in this cut",
+      "technical_specs": {
+        "lens": "e.g. 85mm Prime",
+        "aperture": "e.g. f/1.8",
+        "iso": "e.g. 800",
+        "depth_of_field": "Shallow or Deep"
+      },
+      "lighting": {
+        "direction": "Side, Front, or Back",
+        "style": "High Key or Low Key",
+        "color": "e.g. warm amber, cool blue"
+      },
+      "composition": {
+        "shot_type": "ECU, CU, MCU, MS, WS, or POV",
+        "focal_point": "what the eye is drawn to",
+        "vertical_alignment": "Upper Third or Center",
+        "camera_movement": "Static, Push-in, Pull-out, Handheld, Tilt, Pan, or Tracking",
+        "movement_speed": "slow, medium, or snap",
+        "movement_motivation": "why the camera moves"
+      },
+      "emotional_intent": "the emotional purpose of this cut",
+      "pacing_note": "how this cut fits the rhythm",
+      "estimated_duration": "e.g. 2.5s"
+    }
+  ],
+  "production_notes": {
+    "pacing_assessment": "string",
+    "risk_areas": ["string"],
+    "recommendations": ["string"]
+  }
+}
 
-## UNIFIED CUT PLAN
-For each cut in sequence:
-- Cut number, beat reference, and shot reference
-- Reference (the exact, word-for-word quote from the original script that this cut is depicting — copy it verbatim, do not paraphrase)
-- What is shown (description)
-- Technical specs (lens, aperture, lighting)
-- Composition and camera movement
-- Emotional intent and pacing note
-- Estimated duration
-
-## PRODUCTION NOTES
-- Overall pacing assessment
-- Risk areas (shots that may need on-set adjustment)
-- Recommendations for the production team
-
-Write in clear, direct production language. Be specific and actionable. If an agent failed and its analysis is missing, work with what is available and note the gap.
+Every cut in the script must be represented. Follow the exact chronological order of the script.
 </output_instructions>`,
 };
 
@@ -634,7 +656,8 @@ async function main() {
   arbiterInput += `${"=".repeat(50)}\n`;
   arbiterInput += script + "\n";
 
-  const arbiterResult = await runAgent(
+  // Try Gemini first; if it fails, fall back to Ollama (Gemma 4)
+  let arbiterResult = await runAgent(
     "Final Arbiter",
     "FINAL ARBITER",
     AGENT_PROMPTS.finalArbiter,
@@ -642,7 +665,19 @@ async function main() {
     callGemini
   );
 
-  // ---- Phase 4: Output final cut plan ---------------------------------------
+  if (!arbiterResult.success) {
+    log("SYSTEM", "Gemini failed. Falling back to Ollama (Gemma 4) for Final Arbiter...");
+    console.log("");
+    arbiterResult = await runAgent(
+      "Final Arbiter",
+      "FINAL ARBITER (Ollama fallback)",
+      AGENT_PROMPTS.finalArbiter,
+      arbiterInput,
+      (sys, usr) => callOllama(sys, usr, 0.5)
+    );
+  }
+
+  // ---- Phase 4: Parse and save structured output ----------------------------
   console.log("");
   console.log("=".repeat(70));
   console.log("  FINAL CUT PLAN");
@@ -650,7 +685,70 @@ async function main() {
   console.log("");
 
   if (arbiterResult.success) {
-    console.log(arbiterResult.output);
+    // Try to parse as JSON for downstream pipeline
+    let cutPlan;
+    try {
+      // Strip markdown fences if Gemini wrapped the JSON
+      let raw = arbiterResult.output.trim();
+      raw = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
+      cutPlan = JSON.parse(raw);
+    } catch (e) {
+      log("SYSTEM", `Warning: Could not parse Final Arbiter output as JSON (${e.message}).`);
+      log("SYSTEM", "Saving raw output instead. The image pipeline may not be able to read it.");
+      cutPlan = null;
+    }
+
+    // Determine output directory from --episode arg
+    const args = process.argv.slice(2);
+    let episodeNum = "0";
+    for (let i = 0; i < args.length; i++) {
+      if (args[i] === "--episode" && args[i + 1]) {
+        episodeNum = args[i + 1];
+      }
+    }
+
+    const outDir = path.join(__dirname, "output", `ep${episodeNum}`);
+    fs.mkdirSync(outDir, { recursive: true });
+
+    if (cutPlan) {
+      // Save structured JSON
+      const cutsPath = path.join(outDir, "drama_cuts.json");
+      fs.writeFileSync(cutsPath, JSON.stringify(cutPlan, null, 2), "utf-8");
+      log("SYSTEM", `Structured cut plan saved: ${cutsPath}`);
+
+      const numCuts = cutPlan.cuts ? cutPlan.cuts.length : 0;
+      const numIssues = cutPlan.validation_issues ? cutPlan.validation_issues.length : 0;
+      log("SYSTEM", `${numCuts} cuts, ${numIssues} validation issues.`);
+
+      // Print validation issues
+      if (cutPlan.validation_issues && cutPlan.validation_issues.length > 0) {
+        console.log("\n  VALIDATION ISSUES:");
+        for (const issue of cutPlan.validation_issues) {
+          console.log(`    - [${issue.agent}] ${issue.issue}`);
+          if (issue.correction) console.log(`      Fix: ${issue.correction}`);
+        }
+      }
+
+      // Print cuts summary
+      if (cutPlan.cuts) {
+        console.log("\n  CUTS:");
+        for (const cut of cutPlan.cuts) {
+          console.log(`    Cut ${cut.cut_number} (${cut.scene_id}): ${cut.description?.substring(0, 80)}...`);
+        }
+      }
+    } else {
+      // Save raw text as fallback
+      const rawPath = path.join(outDir, "drama_cuts_raw.txt");
+      fs.writeFileSync(rawPath, arbiterResult.output, "utf-8");
+      log("SYSTEM", `Raw output saved: ${rawPath}`);
+      console.log(arbiterResult.output);
+    }
+
+    // Also save the script for the Python pipeline to use
+    const scriptPath = path.join(outDir, "script.txt");
+    fs.writeFileSync(scriptPath, script, "utf-8");
+    log("SYSTEM", `Script saved: ${scriptPath}`);
+
   } else {
     console.log(`[Final Arbiter failed: ${arbiterResult.error}]`);
     console.log("");
